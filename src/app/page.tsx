@@ -1,14 +1,12 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
-import { GetStaticProps } from 'next';
+import MarkdownRenderer from '@/components/MarkdownRenderer';
+import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 
-export default function Home() {
+export default async function Home() {
+	const content = await getMarkdownContent('index.md');
+
 	return (
-		<main className='flex min-h-screen flex-col items-center justify-between p-24'>
-			<p>This is Landing Page</p>
+		<main className='p-24'>
+			<MarkdownRenderer content={content} />
 		</main>
 	);
 }
