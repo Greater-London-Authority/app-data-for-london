@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer: React.FC = () => {
 	return (
@@ -10,14 +11,14 @@ const Footer: React.FC = () => {
 						<p className='mb-4'>Keep up to date on the programme:</p>
 						<ul className='list-none pl-0 space-y-2'>
 							<li>
-								<a
+								<Link
 									href='https://chiefdigitalofficer4london.medium.com/towards-a-new-data-for-london-library-d95a062f30d9'
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-blue-500 hover:underline'
 								>
 									Blog: Theo’s Medium Blog
-								</a>
+								</Link>
 							</li>
 							<li>
 								<a

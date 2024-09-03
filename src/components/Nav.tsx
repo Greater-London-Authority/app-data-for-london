@@ -7,25 +7,20 @@ const Nav: React.FC = () => {
 		<div className='w-full flex justify-center text-darkpink'>
 			<nav className='flex justify-between items-center py-4 w-3/4'>
 				<div className='flex items-center'>
-					<a
+					<Link
 						href='/'
 						className='"d-inline-flex link-body-emphasis text-decoration-none"'
 					>
-						<Image
-							src='/logo.png'
-							alt='Data for London'
-							width={70}
-							height={70}
-						/>
-					</a>
+						<Image src='' alt='Data for London' width={70} height={70} />
+					</Link>
 				</div>
-				<ul className='flex justify-between w-1/3'>
+				<ul className='flex justify-between w-1/3 list-none'>
 					<li>
 						<Link href='/'>
 							<span className='flex items-center'>
 								HOME
 								<Image
-									src='/home-icon.png'
+									src=''
 									alt='home icon'
 									width={20}
 									height={20}
@@ -39,7 +34,7 @@ const Nav: React.FC = () => {
 							<span className='flex items-center'>
 								SEARCH
 								<Image
-									src='/search-icon.png'
+									src=''
 									alt='search icon'
 									width={20}
 									height={20}
@@ -53,7 +48,7 @@ const Nav: React.FC = () => {
 							<span className='flex items-center'>
 								LOG IN
 								<Image
-									src='/login-icon.png'
+									src=''
 									alt='log in icon'
 									width={20}
 									height={20}
