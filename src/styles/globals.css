@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   font-weight: bold;
   font-size: 50px;
@@ -17,6 +21,11 @@ h3 {
   font-size: 30px;
 }
 
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 ul {
-  list-style-type: disc; /* other options: circle, disc, decimal, etc. */
+  list-style-type: disc;
 }

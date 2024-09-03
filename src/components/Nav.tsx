@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Nav: React.FC = () => {
 	return (
-		<div className='w-full flex justify-center text-darkpink bg-ldn-light'>
+		<div className='w-full flex justify-center text-darkpink'>
 			<nav className='flex justify-between items-center py-4 w-3/4'>
 				<div className='flex items-center'>
 					<Link
