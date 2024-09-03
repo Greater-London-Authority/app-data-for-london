@@ -20,7 +20,7 @@ By connecting data more effectively, we can:
 
 - For Innovators: Cultivate innovation by fostering collaborations with the technology sector, universities, and the London community itself. 
 
-The Data for London programme also involves work on improving city-wide information governance, establishing a strong data user community to develop the platform further and taking other actions to ensure that data is shared legally, ethically and purposefully.  
+The Data for London programme also involves work on improving city-wide information governance, establishing a strong data user community to develop the platform further and taking other actions to ensure that data is shared legally, ethically and purposefully.
 
 
 Check out our [contact page](contact.md) for more details.
@@ -33,7 +33,7 @@ Visit the Data for London Library to search city data all in one place. In the l
 
 ## A walk through time: the history of London’s data powerhouse
 
-Our data story started many years ago.  A pivotal moment was the creation of  the London Datastore. The London Datastore provides data services and benefits to Londoners and is used by millions of people. Over the years it has evolved alongside the dynamic needs of Londoners and its data community. Join us in celebrating the milestones that shaped London into the powerhouse that it is today.   
+Our data story started many years ago.  A pivotal moment was the creation of  the London Datastore. The London Datastore provides data services and benefits to Londoners and is used by millions of people. Over the years it has evolved alongside the dynamic needs of Londoners and its data community. Join us in celebrating the milestones that shaped London into the powerhouse that it is today.
 
 **See London data milestones:**
 
