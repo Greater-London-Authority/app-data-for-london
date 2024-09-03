@@ -1,7 +1,18 @@
-export default function Contact() {
+import Breadcrumbs from '@/components/Breadcrumbs';
+import MarkdownRenderer from '@/components/MarkdownRenderer';
+import { getMarkdownContent } from '@/lib/MarkdownToHtml';
+
+export default async function Contact() {
+	const content = await getMarkdownContent('contact.md');
+	const breadcrumbs = [
+		{ label: 'Home', href: '/' },
+		{ label: 'Contact' }, // No href means it's the current page
+	];
+
 	return (
-		<main className='flex min-h-screen flex-col items-center justify-between p-24'>
-			<p>This is Contact Page</p>
+		<main className='p-24'>
+			<Breadcrumbs items={breadcrumbs} />
+			<MarkdownRenderer content={content} />
 		</main>
 	);
 }
