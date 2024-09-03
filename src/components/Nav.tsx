@@ -4,21 +4,18 @@ import Image from 'next/image';
 
 const Nav: React.FC = () => {
 	return (
-		<div className='w-full flex justify-center text-darkpink'>
-			<nav className='flex justify-between items-center py-4 w-3/4'>
-				<div className='flex items-center'>
-					<Link
-						href='/'
-						className='"d-inline-flex link-body-emphasis text-decoration-none"'
-					>
+		<div className='w-full flex justify-center text-darkpink px-24'>
+			<nav className='flex flex-wrap justify-between items-center py-4 max-w-7xl w-full'>
+				<div className='flex flex-wrap items-center'>
+					<Link href='/'>
 						<Image src='' alt='Data for London' width={70} height={70} />
 					</Link>
 				</div>
-				<ul className='flex justify-between w-1/3 list-none'>
+				<ul className='flex flex-col md:flex-row justify-between gap-9 list-none'>
 					<li>
 						<Link href='/'>
-							<span className='flex items-center'>
-								HOME
+							<span className='flex items-center font-semibold'>
+								Home
 								<Image
 									src=''
 									alt='home icon'
@@ -31,8 +28,8 @@ const Nav: React.FC = () => {
 					</li>
 					<li>
 						<Link href='/search'>
-							<span className='flex items-center'>
-								SEARCH
+							<span className='flex items-center font-semibold'>
+								Search
 								<Image
 									src=''
 									alt='search icon'
@@ -45,8 +42,8 @@ const Nav: React.FC = () => {
 					</li>
 					<li>
 						<Link href='/login'>
-							<span className='flex items-center'>
-								LOG IN
+							<span className='flex items-center font-semibold'>
+								Log in
 								<Image
 									src=''
 									alt='log in icon'

@@ -12,7 +12,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
 	return (
 		<nav
 			aria-label='breadcrumb'
-			className='text-sm mb-4 font-bold text-darkpink'
+			className='text-sm max-w-7xl mx-auto mb-4 font-bold text-darkpink'
 		>
 			<ol className='list-none p-0 inline-flex'>
 				{items.map((item, index) => (
