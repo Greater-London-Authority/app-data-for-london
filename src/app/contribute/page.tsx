@@ -6,7 +6,7 @@ export default async function Contribute() {
 	const content = await getMarkdownContent('how-to-contribute.md');
 	const breadcrumbs = [
 		{ label: 'Home', href: '/' },
-		{ label: 'Contact' }, // No href means it's the current page
+		{ label: 'How to contribute' }, // No href means it's the current page
 	];
 
 	return (
