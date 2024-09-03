@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
 									rel='noopener noreferrer'
 									className='hover:underline'
 								>
-									X: @LDN_data
+									X
 								</Link>
 							</li>
 						</ul>
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
 								</Link>
 							</li>
 							<li>
-								<Link href='/contact-us' className='hover:underline'>
+								<Link href='/contact' className='hover:underline'>
 									Contact us
 								</Link>
 							</li>

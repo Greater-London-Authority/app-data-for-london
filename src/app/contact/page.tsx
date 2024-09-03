@@ -12,7 +12,9 @@ export default async function Contact() {
 	return (
 		<main className='p-24'>
 			<Breadcrumbs items={breadcrumbs} />
-			<MarkdownRenderer content={content} />
+			<div className='block text-justify max-w-7xl mx-auto'>
+				<MarkdownRenderer content={content} />
+			</div>
 		</main>
 	);
 }
