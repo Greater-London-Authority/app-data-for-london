@@ -10,9 +10,9 @@ export default async function Accessibility() {
 	];
 
 	return (
-		<div className='p-24'>
+		<div>
 			<Breadcrumbs items={breadcrumbs} />
-			<div className='block text-justify max-w-7xl mx-auto'>
+			<div className='py-24 block text-justify max-w-7xl mx-auto'>
 				<MarkdownRenderer content={content} />
 			</div>
 		</div>

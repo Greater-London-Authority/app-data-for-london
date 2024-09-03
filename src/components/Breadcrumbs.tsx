@@ -12,20 +12,20 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
 	return (
 		<nav
 			aria-label='breadcrumb'
-			className='text-sm max-w-7xl mx-auto mb-4 font-bold text-darkpink'
+			className='text-base max-w-7xl mx-auto mb-4 font-bold'
 		>
 			<ol className='list-none p-0 inline-flex'>
 				{items.map((item, index) => (
 					<li key={index} className='flex items-center'>
 						{item.href ? (
-							<Link href={item.href} className='text-blue-600 hover:underline'>
+							<Link href={item.href} className=' text-darkpink hover:underline'>
 								{item.label}
 							</Link>
 						) : (
-							<span className='text-gray-500'>{item.label}</span>
+							<span className=' text-ldn-dark'>{item.label}</span>
 						)}
 						{index < items.length - 1 && (
-							<span className='mx-2 text-gray-400'>/</span>
+							<span className='mx-2  text-darkpink'>/</span>
 						)}
 					</li>
 				))}
