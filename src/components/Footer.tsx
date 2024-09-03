@@ -5,8 +5,8 @@ const Footer: React.FC = () => {
 	return (
 		<footer className=' flex justify-center bg-darkpink p-8 border-t border-ldn-grey'>
 			<div className='flex-col max-w-7xl w-full'>
-				<div className='flex flex-wrap justify-start gap-24'>
-					<section className='mb-8 max-w-60'>
+				<div className='flex flex-wrap justify-between max-w-7xl'>
+					<section className='mb-8 w-full lg:w-1/5'>
 						<h2 className='text-xl font-semibold mb-2'>Find out more</h2>
 						<p className='mb-4 font-semibold'>
 							Keep up to date on the programme:
@@ -44,12 +44,12 @@ const Footer: React.FC = () => {
 							</li>
 						</ul>
 					</section>
-					<section className='mb-8 max-w-60'>
+					<section className='mb-8 w-full lg:w-1/5'>
 						<h2 className='text-xl font-semibold mb-2'>Useful links</h2>
-						<ul className='list-none pl-0 space-y-2'>
+						<ul className='flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
 							<li>
-								<Link href='/privacy-policy' className='hover:underline'>
-									Privacy policy
+								<Link href='/contribute' className='hover:underline'>
+									How to contribute
 								</Link>
 							</li>
 							<li>
@@ -61,28 +61,13 @@ const Footer: React.FC = () => {
 								</Link>
 							</li>
 							<li>
-								<Link href='/terms-and-conditions' className='hover:underline'>
-									Terms and conditions
-								</Link>
-							</li>
-							<li>
 								<Link href='/report-bug' className='hover:underline'>
 									Report a bug or issue
 								</Link>
 							</li>
 							<li>
-								<Link href='/accessibility' className='hover:underline'>
-									Accessibility
-								</Link>
-							</li>
-							<li>
 								<Link href='/user-research-pool' className='hover:underline'>
 									Join our user research pool
-								</Link>
-							</li>
-							<li>
-								<Link href='/contact' className='hover:underline'>
-									Contact us
 								</Link>
 							</li>
 							<li>
@@ -93,6 +78,36 @@ const Footer: React.FC = () => {
 									className='hover:underline'
 								>
 									Sign up for our ezine
+								</Link>
+							</li>
+						</ul>
+					</section>
+					<section className='mb-8 w-full lg:w-1/5'>
+						<h2 className='text-xl font-semibold mb-2'>Support</h2>
+						<ul className='flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
+							<li>
+								<Link href='/faq' className='hover:underline'>
+									FAQs
+								</Link>
+							</li>
+							<li>
+								<Link href='/privacy-policy' className='hover:underline'>
+									Privacy policy
+								</Link>
+							</li>
+							<li>
+								<Link href='/terms-and-conditions' className='hover:underline'>
+									Terms and conditions
+								</Link>
+							</li>
+							<li>
+								<Link href='/accessibility' className='hover:underline'>
+									Accessibility
+								</Link>
+							</li>
+							<li>
+								<Link href='/contact' className='hover:underline'>
+									Contact us
 								</Link>
 							</li>
 						</ul>
