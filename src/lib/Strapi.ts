@@ -1,10 +1,10 @@
-import qs from "qs";
+import qs from 'qs';
 export default async function getStrapiData(
   path: string,
   urlParamsObject: object = {},
   options: object = {}
 ) {
-  const baseUrl = "http://localhost:1337";
+  const baseUrl = 'http://localhost:1337';
 
   const url = new URL(path, baseUrl);
 
@@ -13,7 +13,7 @@ export default async function getStrapiData(
     const mergedOptions = {
       next: { revalidate: 60 },
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
       ...options,
     };
@@ -21,7 +21,7 @@ export default async function getStrapiData(
     // Build request URL
     const queryString = qs.stringify(urlParamsObject);
     const requestUrl = `${baseUrl}/api${path}${
-      queryString ? `?${queryString}` : ""
+      queryString ? `?${queryString}` : ''
     }`;
 
     // API call

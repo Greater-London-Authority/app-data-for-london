@@ -1,8 +1,8 @@
-import MarkdownRenderer from "@/components/MarkdownRenderer";
-import getStrapiData from "@/lib/Strapi";
+import MarkdownRenderer from '@/components/MarkdownRenderer';
+import getStrapiData from '@/lib/Strapi';
 
 export default async function Home() {
-  const pageDocumentId = "t3o5oqd1uopm0fjxvy6fh3cd";
+  const pageDocumentId = 't3o5oqd1uopm0fjxvy6fh3cd';
   const { data } = await getStrapiData(`/api/pages/${pageDocumentId}`);
   const MDContent = data.rich_text;
 
