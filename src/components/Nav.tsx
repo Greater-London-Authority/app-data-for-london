@@ -27,7 +27,6 @@ const navParams = {
 export default async function Nav() {
   const { data } = await getStrapiData(navPath, navParams);
   const navigationData: NavigationData = data.navigation;
-  console.log(navigationData);
 
   return (
     <div className="w-full flex justify-center text-darkpink px-24">
