@@ -50,6 +50,10 @@ ol li p {
   display: inline;
 }
 
+a {
+  color: #9e0059;
+}
+
 a:hover {
   text-decoration: underline;
 }
