@@ -41,6 +41,15 @@ ul {
   list-style-type: disc;
 }
 
+li {
+  list-style-position: inside;
+}
+
+ul li p,
+ol li p {
+  display: inline;
+}
+
 a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
