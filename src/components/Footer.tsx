@@ -35,12 +35,14 @@ export default async function Footer() {
   const footerData: FooterData = data.footer;
 
   return (
-    <footer className=" flex justify-center bg-darkpink px-24 py-8 border-t border-ldn-grey">
+    <footer className=" flex justify-center bg-ldn-grey px-24 py-8 border-t border-ldn-grey">
       <div className="flex-col max-w-7xl w-full">
         <div className="flex flex-wrap justify-between max-w-7xl">
           {footerData.footerColumns.map((column: FooterColumn) => (
             <section key={column.id} className="mb-8 w-full lg:w-1/5">
-              <h2 className="text-xl font-semibold mb-2">{column.title}</h2>
+              <h2 className="text-rose-900 text-xl font-semibold mb-2">
+                {column.title}
+              </h2>
               <ul className="list-none pl-0 space-y-2">
                 {column.links.map((link: FooterLink) => (
                   <li key={link.id}>
@@ -48,7 +50,7 @@ export default async function Footer() {
                       href={link.href}
                       target={link.target || undefined}
                       rel={link.isExternal ? 'noopener noreferrer' : undefined}
-                      className="text-ldn-dark hover:underline"
+                      className="hover:underline"
                     >
                       {link.label}
                     </Link>
