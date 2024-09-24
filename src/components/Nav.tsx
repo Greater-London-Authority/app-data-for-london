@@ -33,7 +33,12 @@ export default async function Nav() {
       <nav className="flex flex-wrap justify-between items-center py-4 max-w-7xl w-full">
         <div className="flex flex-wrap items-center">
           <Link href="/">
-            <Image src="" alt="Data for London" width={70} height={70} />
+            <Image
+              src="/Data_For_London_Main_Logo.png"
+              alt="Data for London"
+              width={150}
+              height={150}
+            />
           </Link>
         </div>
         <ul className="flex flex-col md:flex-row justify-between gap-9 list-none">
