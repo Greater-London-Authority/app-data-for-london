@@ -5,25 +5,25 @@ import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-	title: 'Data for London',
-	description: 'Data for London site',
+  title: 'Data for London',
+  description: 'Data for London site',
 };
 
 export default function RootLayout({
-	children,
+  children,
 }: Readonly<{
-	children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-	return (
-		<html lang='en'>
-			<body>
-				<header>
-					<Banner></Banner>
-					<Nav></Nav>
-				</header>
-				<main className='px-24'>{children}</main>
-				<Footer></Footer>
-			</body>
-		</html>
-	);
+  return (
+    <html lang="en">
+      <body>
+        <header>
+          <Banner></Banner>
+          <Nav></Nav>
+        </header>
+        <main className="px-24">{children}</main>
+        <Footer></Footer>
+      </body>
+    </html>
+  );
 }

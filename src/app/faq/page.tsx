@@ -15,7 +15,7 @@ export default async function FAQ() {
   return (
     <div>
       <Breadcrumbs items={breadcrumbs} />
-      <div className="py-24 block text-justify max-w-7xl mx-auto">
+      <div className="mt-8 mb-24 block text-justify max-w-7xl mx-auto">
         <div dangerouslySetInnerHTML={{ __html: data.content }} />
       </div>
     </div>

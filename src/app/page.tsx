@@ -7,7 +7,7 @@ export default async function Home() {
   const { data } = await getStrapiData(path);
 
   return (
-    <div className="py-24">
+    <div className="mt-8 pb-24">
       <div className="block text-justify max-w-7xl mx-auto">
         <div dangerouslySetInnerHTML={{ __html: data.content }} />
       </div>
