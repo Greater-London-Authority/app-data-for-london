@@ -35,14 +35,12 @@ export default async function Footer() {
   const footerData: FooterData = data.footer;
 
   return (
-    <footer className="text-white flex justify-center bg-ldn-dark px-24 py-8 border-t border-ldn-grey">
-      <div className="flex-col max-w-7xl w-full">
-        <div className="flex flex-wrap justify-between max-w-7xl">
+    <footer className="text-white flex justify-center bg-ldn-dark p-4 mt-11 border-t border-ldn-grey">
+      <div className="flex flex-col max-w-7xl w-full">
+        <div className="flex flex-wrap justify-between">
           {footerData.footerColumns.map((column: FooterColumn) => (
-            <section key={column.id} className="mb-8 w-full lg:w-1/5">
-              <h2 className="text-rose-900 text-xl font-semibold mb-2">
-                {column.title}
-              </h2>
+            <section key={column.id} className="mb-8 w-full md:w-1/5">
+              <h2 className="text-xl font-semibold mb-2">{column.title}</h2>
               <ul className="list-none pl-0 space-y-2">
                 {column.links.map((link: FooterLink) => (
                   <li key={link.id}>
@@ -50,7 +48,7 @@ export default async function Footer() {
                       href={link.href}
                       target={link.target || undefined}
                       rel={link.isExternal ? 'noopener noreferrer' : undefined}
-                      className="text-white hover:underline"
+                      className="text-white hover:text-white hover:underline"
                     >
                       {link.label}
                     </Link>

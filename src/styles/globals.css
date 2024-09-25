@@ -48,10 +48,12 @@ h4 {
 ul {
   list-style-type: disc;
   list-style-position: inside;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 li {
-  margin-bottom: 1rem;
+  margin-top: 0.25rem;
 }
 
 ul li p,
@@ -64,5 +66,6 @@ a {
 }
 
 a:hover {
+  color: black;
   text-decoration: underline;
 }
