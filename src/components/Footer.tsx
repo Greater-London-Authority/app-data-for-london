@@ -18,6 +18,7 @@ interface FooterColumn {
 
 interface FooterData {
   Disclaimer: string;
+  copyright_notice: string;
   footerColumns: FooterColumn[];
 }
 
@@ -60,7 +61,10 @@ export default async function Footer() {
         </div>
         <div className="flex-col">
           <section>
-            <p className="text-sm">{footerData.Disclaimer}</p>
+            <div
+              dangerouslySetInnerHTML={{ __html: footerData.copyright_notice }}
+              className="text-sm text-white copyright-notice [&_a]:text-white [&_a:hover]:text-white [&_a]:underline"
+            />
           </section>
         </div>
       </div>
