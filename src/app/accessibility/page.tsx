@@ -15,7 +15,7 @@ export default async function Accessibility() {
   return (
     <div>
       <Breadcrumbs items={breadcrumbs} />
-      <div className="mt-8 mb-24 block text-justify max-w-7xl mx-auto">
+      <div className="block text-justify max-w-3xl px-4 my-4 mx-auto">
         <div dangerouslySetInnerHTML={{ __html: data.content }} />
       </div>
     </div>

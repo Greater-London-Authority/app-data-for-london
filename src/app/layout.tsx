@@ -21,7 +21,7 @@ export default function RootLayout({
           <Banner></Banner>
           <Nav></Nav>
         </header>
-        <main className="px-24">{children}</main>
+        <main>{children}</main>
         <Footer></Footer>
       </body>
     </html>
