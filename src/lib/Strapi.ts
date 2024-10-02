@@ -5,7 +5,7 @@ export default async function getStrapiData(
   urlParamsObject: object = {},
   options: object = {}
 ) {
-  const baseUrl = 'http://localhost:1337';
+  const baseUrl = process.env.BASE_URL;
 
   try {
     // Merge default and user options
