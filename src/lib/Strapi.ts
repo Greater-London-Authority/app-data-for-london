@@ -3,14 +3,14 @@ import qs from 'qs';
 export default async function getStrapiData(
   path: string,
   urlParamsObject: object = {},
-  options: object = {}
+  options: RequestInit = {}
 ) {
   const baseUrl = process.env.BASE_URL;
   const ApiToken = process.env.STRAPI_TOKEN;
 
   try {
     // Merge default and user options
-    const mergedOptions = {
+    const mergedOptions: RequestInit = {
       next: { revalidate: 60 },
       headers: {
         'Content-Type': 'application/json',
@@ -30,6 +30,7 @@ export default async function getStrapiData(
     const data = await response.json();
     return data;
   } catch (error) {
-    console.error(error);
+    console.error('Error:', error);
+    throw error;
   }
 }
