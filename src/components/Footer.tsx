@@ -17,7 +17,6 @@ interface FooterColumn {
 }
 
 interface FooterData {
-  Disclaimer: string;
   copyright_notice: string;
   footerColumns: FooterColumn[];
 }
