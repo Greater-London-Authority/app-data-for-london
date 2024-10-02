@@ -6,6 +6,7 @@ export default async function getStrapiData(
   options: object = {}
 ) {
   const baseUrl = process.env.BASE_URL;
+  const ApiToken = process.env.STRAPI_TOKEN;
 
   try {
     // Merge default and user options
@@ -13,6 +14,7 @@ export default async function getStrapiData(
       next: { revalidate: 60 },
       headers: {
         'Content-Type': 'application/json',
+        ...(ApiToken ? { Authorization: `Bearer ${ApiToken}` } : {}),
       },
       ...options,
     };
