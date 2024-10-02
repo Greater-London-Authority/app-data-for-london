@@ -35,9 +35,10 @@ export default async function Nav() {
           <Link href="/">
             <Image
               src="/Data_For_London_Main_Logo.png"
-              alt="Data for London"
-              width={150}
-              height={150}
+              alt="Data for London Logo"
+              width={2759}
+              height={1144}
+              style={{ width: '150px', height: 'auto' }}
             />
           </Link>
         </div>
