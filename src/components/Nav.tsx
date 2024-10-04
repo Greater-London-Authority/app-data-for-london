@@ -21,44 +21,17 @@ const Nav: React.FC = () => {
         <ul className='flex flex-col md:flex-row justify-between gap-9 list-none'>
           <li>
             <Link href='/' className='no-underline'>
-              <span className='flex items-center font-semibold'>
-                Home
-                <Image
-                  src=''
-                  alt='home icon'
-                  width={20}
-                  height={20}
-                  className='ml-2'
-                />
-              </span>
+              <span className='flex items-center font-semibold'>Home</span>
             </Link>
           </li>
           <li>
             <Link href='/search' className='no-underline'>
-              <span className='flex items-center font-semibold'>
-                Search
-                <Image
-                  src=''
-                  alt='search icon'
-                  width={20}
-                  height={20}
-                  className='ml-2'
-                />
-              </span>
+              <span className='flex items-center font-semibold'>Search</span>
             </Link>
           </li>
           <li>
             <Link href='/login' className='no-underline'>
-              <span className='flex items-center font-semibold'>
-                Log in
-                <Image
-                  src=''
-                  alt='log in icon'
-                  width={20}
-                  height={20}
-                  className='ml-2'
-                />
-              </span>
+              <span className='flex items-center font-semibold'>Log in</span>
             </Link>
           </li>
         </ul>
