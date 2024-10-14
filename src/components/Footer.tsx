@@ -7,11 +7,11 @@ const Footer: React.FC = () => {
       <div className='flex flex-col max-w-7xl w-full'>
         <div className='flex flex-wrap justify-between'>
           <section className='mb-8 w-full lg:w-1/5'>
-            <h2 className='text-xl font-semibold mb-2'>Find out more</h2>
+            <h2 className='text-2xl font-semibold mb-2'>Find out more</h2>
             <p className='mb-4 font-semibold'>
               Keep up to date on the programme:
             </p>
-            <ul className='list-none pl-0 space-y-2'>
+            <ul className='text-lg list-none pl-0 space-y-2'>
               <li>
                 <Link
                   href='https://chiefdigitalofficer4london.medium.com/towards-a-new-data-for-london-library-d95a062f30d9'
@@ -45,8 +45,8 @@ const Footer: React.FC = () => {
             </ul>
           </section>
           <section className='mb-8 w-full lg:w-1/5'>
-            <h2 className='text-xl font-semibold mb-2'>Useful links</h2>
-            <ul className='flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
+            <h2 className='text-2xl font-semibold mb-2'>Useful links</h2>
+            <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
               <li>
                 <Link
                   href='/contribute'
@@ -92,8 +92,8 @@ const Footer: React.FC = () => {
             </ul>
           </section>
           <section className='mb-8 w-full lg:w-1/5'>
-            <h2 className='text-xl font-semibold mb-2'>Support</h2>
-            <ul className='flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
+            <h2 className='text-2xl font-semibold mb-2'>Support</h2>
+            <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
               <li>
                 <Link
                   href='/faq'
@@ -139,7 +139,7 @@ const Footer: React.FC = () => {
         </div>
         <div className='flex-col '>
           <section>
-            <p className='text-sm'>
+            <p className='text-base'>
               We use cookies to ensure we give you the best experience on our
               website. Find out more about cookies in our{' '}
               <Link
@@ -159,7 +159,7 @@ const Footer: React.FC = () => {
             </p>
           </section>
           <section>
-            <p className='text-sm'>
+            <p className='text-base'>
               © Copyright 2024, Greater London Authority.
             </p>
           </section>
