@@ -12,7 +12,7 @@ export default async function FAQ() {
   return (
     <div>
       <Breadcrumbs items={breadcrumbs} />
-      <div className='block text-justify max-w-3xl px-4 my-4 mx-auto'>
+      <div className='block text-left max-w-3xl px-4 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
     </div>
