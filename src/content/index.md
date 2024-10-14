@@ -28,7 +28,7 @@ Check out our [contact page](contact.md) for more details.
 
 ## Visit the Library
 
-Visit the Data for London Library to search city data all in one place. In the library you can find data from across London to quickly and easily. With this data you can build services and solutions to improve life for Londoners.
+Visit the [Data for London Library](https://dfl-library.london.gov.uk) to search city data all in one place. In the library you can find data from across London to quickly and easily. With this data you can build services and solutions to improve life for Londoners.
 
 ## A walk through time: the history of London’s data powerhouse
 
