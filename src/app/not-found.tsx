@@ -5,7 +5,7 @@ export default async function NotFound() {
   const content = await getMarkdownContent('404.md');
 
   return (
-    <div className='block text-center max-w-3xl px-4 my-4 mx-auto'>
+    <div className='block text-center max-w-[1200px] px-4 my-4 mx-auto'>
       <MarkdownRenderer content={content} />
     </div>
   );

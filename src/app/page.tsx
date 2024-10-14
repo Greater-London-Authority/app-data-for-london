@@ -6,7 +6,7 @@ export default async function Home() {
 
   return (
     <div>
-      <div className='block text-left max-w-3xl px-4 my-4 mx-auto'>
+      <div className='block text-left max-w-[1200px] px-4 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
     </div>
