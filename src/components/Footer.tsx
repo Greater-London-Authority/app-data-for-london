@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className='text-white flex justify-center bg-ldn-dark p-4 mt-11 border-t border-ldn-grey'>
       <div className='flex flex-col max-w-7xl w-full'>
         <div className='flex flex-wrap justify-between'>
-          <section className='mb-8 w-full lg:w-1/5'>
+          <section className='mb-8 w-full md:w-1/5'>
             <h2 className='text-2xl font-semibold mb-2'>Find out more</h2>
             <p className='mb-4 font-semibold'>
               Keep up to date on the programme:
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </section>
-          <section className='mb-8 w-full lg:w-1/5'>
+          <section className='mb-8 w-full md:w-1/5'>
             <h2 className='text-2xl font-semibold mb-2'>Useful links</h2>
             <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
               <li>
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </section>
-          <section className='mb-8 w-full lg:w-1/5'>
+          <section className='mb-8 w-full md:w-1/5'>
             <h2 className='text-2xl font-semibold mb-2'>Support</h2>
             <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
               <li>
