@@ -1,7 +1,3 @@
-# Data for London
-
-The Mayor of London's Data for London programme wants to make it simpler for people to share and use data held across London to improve the city and benefit Londoners. The Greater London Authority is building a new platform, the [Data for London Library](https://dfl-library.london.gov.uk), for data sharing and a user-friendly service to facilitate easy data discovery.
-
 ## What is Data for London?
 
 We believe in harnessing the power of data to solve complex challenges. From measuring air quality to optimising your travel journey, data can be used to improve our quality of life.
