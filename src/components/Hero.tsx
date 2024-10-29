@@ -19,7 +19,7 @@ const Hero: React.FC<HeroProps> = ({
   buttonText = '',
 }) => {
   return (
-    <div className='relative flex items-center justify-center w-full min-h-[500px]'>
+    <div className='relative flex items-center justify-center w-full min-h-[500px] mb-12'>
       <Image
         src={imageUrl}
         alt={imageAlt}
