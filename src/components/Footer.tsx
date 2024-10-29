@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
                   href='/report-bug'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  Report a bug or issue
+                  How to report a bug
                 </Link>
               </li>
               <li>
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
                   href='/faq'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  FAQs
+                  Frequently asked questions
                 </Link>
               </li>
               <li>
