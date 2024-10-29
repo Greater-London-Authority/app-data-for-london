@@ -26,7 +26,7 @@ const Nav: React.FC = () => {
           </li>
           <li>
             <Link href='/search' className='no-underline'>
-              <span className='flex items-center font-semibold'>Search</span>
+              <span className='flex items-center font-semibold'>Library</span>
             </Link>
           </li>
           <li>
