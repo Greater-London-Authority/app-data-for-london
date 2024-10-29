@@ -66,3 +66,20 @@ a:hover {
   color: black;
   text-decoration: underline;
 }
+
+.btn {
+  color: black;
+  background-color: white;
+  height: fit-content;
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  border: #9e0059 2px solid;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #9e0059;
+  color: white;
+}
