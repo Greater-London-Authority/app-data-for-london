@@ -18,7 +18,7 @@ By connecting data more effectively, we can:
 
 The Data for London programme also involves work on improving city-wide information governance, establishing a strong data user community to develop the platform further and taking other actions to ensure that data is shared legally, ethically and purposefully.
 
-Check out our [contact page](contact.md) for more details.
+Check out our [contact page](/contact) for more details.
 
 **Keep an eye open for future updates on our activity.**
 
