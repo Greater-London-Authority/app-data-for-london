@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  href='/data-for-london-library'
+                  href='https://dfl-library.london.gov.uk/'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
                   Visit the Data for London Library
