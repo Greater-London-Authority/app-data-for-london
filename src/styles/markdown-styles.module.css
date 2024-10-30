@@ -19,4 +19,12 @@
 
 .markdownContent ul {
   font-size: 1.125rem;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.markdownContent li {
+  margin-top: 0.25rem;
 }
