@@ -41,10 +41,35 @@ const Footer: React.FC = () => {
             <ul className='text-lg list-none space-y-4'>
               <li>
                 <Link
-                  href='https://dfl-library.london.gov.uk/'
+                  href='/privacy-policy'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  Visit the Data for London Library
+                  Privacy policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/accessibility'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Accessibility
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/terms-and-conditions'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Terms and conditions
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href='/contact'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Contact us
                 </Link>
               </li>
               <li>
@@ -55,6 +80,25 @@ const Footer: React.FC = () => {
                   How to report a bug
                 </Link>
               </li>
+            </ul>
+            <ul className='text-lg list-none space-y-4'>
+              <li>
+                <Link
+                  href='https://dfl-library.london.gov.uk/'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Visit the Data for London Library
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/faq'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Frequently asked questions
+                </Link>
+              </li>
+
               <li>
                 <Link
                   href='/user-research-pool'
@@ -71,48 +115,6 @@ const Footer: React.FC = () => {
                   className='text-white hover:text-white no-underline hover:underline'
                 >
                   Sign up for our ezine
-                </Link>
-              </li>
-            </ul>
-            <ul className='text-lg list-none space-y-4'>
-              <li>
-                <Link
-                  href='/faq'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Frequently asked questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/privacy-policy'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Privacy policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/terms-and-conditions'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Terms and conditions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/accessibility'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Accessibility
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/contact'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Contact us
                 </Link>
               </li>
             </ul>
