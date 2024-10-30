@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer: React.FC = () => {
   return (
@@ -8,39 +9,28 @@ const Footer: React.FC = () => {
         <div className='flex flex-wrap justify-between'>
           <section className='mb-8 w-full md:w-1/5'>
             <h2 className='text-2xl font-semibold mb-2'>Find out more</h2>
-            <p className='mb-4 font-semibold'>
-              Keep up to date on the programme:
-            </p>
-            <ul className='text-lg list-none pl-0 space-y-2'>
+            <p className='mb-4 font-semibold'></p>
+            <ul className='flex gap-4 lg:justify-between flex-wrap text-lg list-none pl-0 space-y-2'>
               <li>
-                <Link
-                  href='https://chiefdigitalofficer4london.medium.com/towards-a-new-data-for-london-library-d95a062f30d9'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Blog
-                </Link>
+                <SocialIcon
+                  url='https://chiefdigitalofficer4london.medium.com/towards-a-new-data-for-london-library-d95a062f30d9'
+                  label='Blog'
+                  target='blank'
+                />
               </li>
               <li>
-                <Link
-                  href='https://www.linkedin.com/company/city-intelligence-unit'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  LinkedIn
-                </Link>
+                <SocialIcon
+                  url='https://www.linkedin.com/company/city-intelligence-unit'
+                  label='linkedin'
+                  target='blank'
+                />
               </li>
               <li>
-                <Link
-                  href='https://x.com/ldn_data'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  X
-                </Link>
+                <SocialIcon
+                  url='https://x.com/ldn_data'
+                  label='X'
+                  target='blank'
+                />
               </li>
             </ul>
           </section>
