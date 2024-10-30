@@ -16,3 +16,7 @@
   color: var(--ldn-dark);
   text-decoration: underline;
 }
+
+.markdownContent ul {
+  font-size: 1.125rem;
+}
