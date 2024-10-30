@@ -21,6 +21,7 @@ const config: Config = {
       'ldn-light': '#868b83',
       'library-header': '#efefef',
       'library-border': '#d6d6d6',
+      'footer-dark': '#1A1E21',
       darkpink: '#9e0059',
       white: '#ffffff',
     },

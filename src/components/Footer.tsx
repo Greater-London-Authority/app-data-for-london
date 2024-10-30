@@ -4,11 +4,11 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer: React.FC = () => {
   return (
-    <footer className='text-white flex justify-center bg-ldn-dark p-4 mt-11 border-t border-ldn-grey'>
+    <footer className='text-white flex justify-center bg-footer-dark mt-11 border-t border-ldn-grey'>
       <div className='flex flex-col max-w-[1200px] w-full'>
-        <div className='flex flex-wrap justify-between'>
+        <div className='flex flex-wrap justify-between px-3 py-12'>
           <section className='mb-8 w-full md:w-1/5'>
-            <h2 className='text-2xl font-semibold mb-2'>Find out more</h2>
+            <h2 className='text-2xl font-semibold mb-2'>Connect with us</h2>
             <p className='mb-4 font-semibold'></p>
             <ul className='flex gap-4 lg:justify-between flex-wrap text-lg list-none pl-0 space-y-2'>
               <li>
@@ -34,92 +34,95 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </section>
-          <section className='mb-8 w-full md:w-1/5'>
+          <section className='flex-col mb-8 w-full md:w-3/5'>
             <h2 className='text-2xl font-semibold mb-2'>Useful links</h2>
-            <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
-              <li>
-                <Link
-                  href='https://dfl-library.london.gov.uk/'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Visit the Data for London Library
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/report-bug'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  How to report a bug
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/user-research-pool'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Join our user research pool
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='https://www.london.gov.uk/programmes-strategies/business-and-economy/mayors-priorities-londons-economy-and-business/smart-london/sign-up-london-datastore-ezine'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Sign up for our ezine
-                </Link>
-              </li>
-            </ul>
-          </section>
-          <section className='mb-8 w-full md:w-1/5'>
-            <h2 className='text-2xl font-semibold mb-2'>Support</h2>
-            <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
-              <li>
-                <Link
-                  href='/faq'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Frequently asked questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/privacy-policy'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Privacy policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/terms-and-conditions'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Terms and conditions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/accessibility'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Accessibility
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/contact'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Contact us
-                </Link>
-              </li>
-            </ul>
+            <div className='flex flex-wrap justify-between md:gap-12'>
+              <div className='w-full md:mb-8 md:w-1/3'>
+                <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
+                  <li>
+                    <Link
+                      href='https://dfl-library.london.gov.uk/'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Visit the Data for London Library
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/report-bug'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      How to report a bug
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/user-research-pool'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Join our user research pool
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='https://www.london.gov.uk/programmes-strategies/business-and-economy/mayors-priorities-londons-economy-and-business/smart-london/sign-up-london-datastore-ezine'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Sign up for our ezine
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className='mb-8 w-full md:w-1/3'>
+                <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
+                  <li>
+                    <Link
+                      href='/faq'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Frequently asked questions
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/privacy-policy'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Privacy policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/terms-and-conditions'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Terms and conditions
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/accessibility'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Accessibility
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/contact'
+                      className='text-white hover:text-white no-underline hover:underline'
+                    >
+                      Contact us
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </section>
         </div>
-        <div className='flex-col '>
+        <div className='flex-col  px-3 py-6'>
           <section>
             <p className='text-base'>
               We use cookies to ensure we give you the best experience on our
