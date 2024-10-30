@@ -1,0 +1,18 @@
+.markdownContent:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --ldn-dark: #2a3135;
+  --ldn-grey: #353d42;
+  --ldn-light: #868b83;
+  --darkpink: #9e0059;
+  --white: #ffffff;
+}
+
+.markdownContent a {
+  color: var(--darkpink);
+  text-decoration: underline;
+}
+
+.markdownContent a:hover {
+  color: var(--ldn-dark);
+  text-decoration: underline;
+}

@@ -20,17 +20,26 @@ const Nav: React.FC = () => {
         </div>
         <ul className='flex flex-col md:flex-row itesm-center justify-between gap-8 list-none m-0 mr-8'>
           <li className='m-auto'>
-            <Link href='/' className='no-underline text-ldn-dark text-lg'>
+            <Link
+              href='/'
+              className='no-underline hover:underline text-ldn-dark text-lg'
+            >
               Home
             </Link>
           </li>
           <li className='m-auto'>
-            <Link href='/search' className='no-underline text-ldn-dark text-lg'>
+            <Link
+              href='/search'
+              className='no-underline hover:underline text-ldn-dark text-lg'
+            >
               Library
             </Link>
           </li>
           <li className='m-auto'>
-            <Link href='/login' className='no-underline text-ldn-dark text-lg'>
+            <Link
+              href='/login'
+              className='no-underline hover:underline text-ldn-dark text-lg'
+            >
               Log in
             </Link>
           </li>

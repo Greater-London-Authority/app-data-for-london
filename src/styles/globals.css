@@ -63,16 +63,6 @@ ol li p {
   display: inline;
 }
 
-a {
-  color: var(--darkpink);
-  text-decoration: underline;
-}
-
-a:hover {
-  color: var(--ldn-dark);
-  text-decoration: underline;
-}
-
 .btn {
   color: var(--ldn-dark);
   background-color: white;
