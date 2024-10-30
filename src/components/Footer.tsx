@@ -39,14 +39,6 @@ const Footer: React.FC = () => {
             <ul className='text-lg flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
               <li>
                 <Link
-                  href='/contribute'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  How to contribute
-                </Link>
-              </li>
-              <li>
-                <Link
                   href='https://dfl-library.london.gov.uk/'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
