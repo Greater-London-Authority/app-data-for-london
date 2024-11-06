@@ -19,14 +19,14 @@ const Hero: React.FC<HeroProps> = ({
   buttonText = '',
 }) => {
   return (
-    <div className='relative flex items-center justify-center w-full min-h-[500px] mb-12'>
-      <Image
-        src={imageUrl}
-        alt={imageAlt}
-        fill
-        style={{ objectFit: 'cover' }}
-        className='absolute inset-0 -z-10'
-      />
+    <div
+      className='relative flex items-center justify-center w-full min-h-[500px] mb-12'
+      style={{
+        backgroundImage: `url(${imageUrl})`,
+        backgroundSize: 'cover',
+        backgroundPosition: '0px -250px',
+      }}
+    >
       <div className='max-w-[1200px] p-4 w-full text-white flex flex-col'>
         <h1 className='text-[120px]'>{headerText}</h1>
         <div className='w-full flex justify-between items-start flex-wrap'>
