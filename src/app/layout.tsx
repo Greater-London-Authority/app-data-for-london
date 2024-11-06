@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   description: 'Data for London site',
 };
 
+// Below insert links to show in the navigation bar
+const navigationLinks = [
+  { href: '/', label: 'Home' },
+  { href: 'https://dfl-library.london.gov.uk/dataset', label: 'Library' },
+  { href: 'https://dfl-library.london.gov.uk/user/login', label: 'Log in' },
+];
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -35,7 +42,7 @@ export default function RootLayout({
         />
         <header>
           <Banner></Banner>
-          <Nav></Nav>
+          <Nav links={navigationLinks} />
         </header>
         <main>{children}</main>
         <Footer></Footer>
