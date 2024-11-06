@@ -4,56 +4,47 @@
 
 :root {
   font-family: Arial, Helvetica, sans-serif;
+  --ldn-dark: #2a3135;
+  --ldn-grey: #353d42;
+  --ldn-light: #868b83;
+  --darkpink: #9e0059;
+  --white: #ffffff;
 }
 
 body {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: auto 1fr;
+  color: var(--ldn-dark);
 }
 
 p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  margin-bottom: 1.125rem;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 1.9rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1.4rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
   font-weight: bold;
-  font-size: 1.2rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h4 {
   font-weight: bold;
-  font-size: 1rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
-}
-
-ul {
-  list-style-type: disc;
-  list-style-position: inside;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-li {
-  margin-top: 0.25rem;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
 }
 
 ul li p,
@@ -61,12 +52,19 @@ ol li p {
   display: inline;
 }
 
-a {
-  color: #9e0059;
-  text-decoration: underline;
+.btn {
+  color: var(--ldn-dark);
+  background-color: white;
+  height: fit-content;
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  border: var(--darkpink) 2px solid;
 }
 
-a:hover {
-  color: black;
-  text-decoration: underline;
+.btn:hover {
+  text-decoration: none;
+  background-color: var(--darkpink);
+  color: white;
 }

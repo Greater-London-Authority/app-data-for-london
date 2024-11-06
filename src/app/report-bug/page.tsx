@@ -2,17 +2,17 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 
-export default async function Contribute() {
-  const content = await getMarkdownContent('how-to-contribute.md');
+export default async function PrivacyPolicy() {
+  const content = await getMarkdownContent('report-bug.md');
   const breadcrumbs = [
     { label: 'Home', href: '/' },
-    { label: 'How to contribute' }, // No href means it's the current page
+    { label: 'How to report a bug' }, // No href means it's the current page
   ];
 
   return (
     <div>
       <Breadcrumbs items={breadcrumbs} />
-      <div className='block text-justify max-w-3xl px-4 my-4 mx-auto'>
+      <div className='block text-left max-w-[1200px] px-4 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
     </div>

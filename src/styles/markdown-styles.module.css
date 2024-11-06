@@ -1,0 +1,30 @@
+.markdownContent:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --ldn-dark: #2a3135;
+  --ldn-grey: #353d42;
+  --ldn-light: #868b83;
+  --darkpink: #9e0059;
+  --white: #ffffff;
+}
+
+.markdownContent a {
+  color: var(--darkpink);
+  text-decoration: underline;
+}
+
+.markdownContent a:hover {
+  color: var(--ldn-dark);
+  text-decoration: underline;
+}
+
+.markdownContent ul {
+  font-size: 1.125rem;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.markdownContent li {
+  margin-top: 0.25rem;
+}

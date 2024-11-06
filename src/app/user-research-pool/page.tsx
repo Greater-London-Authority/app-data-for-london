@@ -2,11 +2,11 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 
-export default async function PrivacyPolicy() {
-  const content = await getMarkdownContent('privacy-policy.md');
+export default async function TermsAndConditions() {
+  const content = await getMarkdownContent('user-research-pool.md');
   const breadcrumbs = [
     { label: 'Home', href: '/' },
-    { label: 'Privacy Policy' }, // No href means it's the current page
+    { label: 'Join our user research pool' }, // No href means it's the current page
   ];
 
   return (

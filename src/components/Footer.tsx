@@ -1,66 +1,75 @@
 import React from 'react';
 import Link from 'next/link';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer: React.FC = () => {
   return (
-    <footer className='text-white flex justify-center bg-ldn-dark p-4 mt-11 border-t border-ldn-grey'>
-      <div className='flex flex-col max-w-7xl w-full'>
-        <div className='flex flex-wrap justify-between'>
-          <section className='mb-8 w-full lg:w-1/5'>
-            <h2 className='text-xl font-semibold mb-2'>Find out more</h2>
-            <p className='mb-4 font-semibold'>
-              Keep up to date on the programme:
-            </p>
-            <ul className='list-none pl-0 space-y-2'>
+    <footer className='text-white bg-footer-dark mt-11 border-t border-ldn-grey'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-[1200px] w-full px-4 py-12 mx-auto'>
+        {/* Connect with Us */}
+        <section className='col-span-1'>
+          <h2 className='text-2xl font-semibold mb-4'>Connect with us</h2>
+          <ul className='flex gap-8 flex-wrap text-lg list-none pl-0'>
+            <li>
+              <SocialIcon
+                url='https://chiefdigitalofficer4london.medium.com/towards-a-new-data-for-london-library-d95a062f30d9'
+                label='Blog'
+                target='_blank'
+              />
+            </li>
+            <li>
+              <SocialIcon
+                url='https://www.linkedin.com/company/city-intelligence-unit'
+                label='linkedin'
+                target='_blank'
+              />
+            </li>
+            <li>
+              <SocialIcon
+                url='https://x.com/ldn_data'
+                label='X'
+                target='_blank'
+              />
+            </li>
+          </ul>
+        </section>
+
+        {/* Useful Links */}
+        <section className='col-span-1 lg:col-span-2'>
+          <h2 className='text-2xl font-semibold mb-4'>Useful links</h2>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8'>
+            <ul className='text-lg list-none space-y-4'>
               <li>
                 <Link
-                  href='https://chiefdigitalofficer4london.medium.com/towards-a-new-data-for-london-library-d95a062f30d9'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/privacy-policy'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  Blog
+                  Privacy policy
                 </Link>
               </li>
               <li>
                 <Link
-                  href='https://www.linkedin.com/company/city-intelligence-unit'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/accessibility'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  LinkedIn
+                  Accessibility
                 </Link>
               </li>
               <li>
                 <Link
-                  href='https://x.com/ldn_data'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/terms-and-conditions'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  X
+                  Terms and conditions
                 </Link>
               </li>
-            </ul>
-          </section>
-          <section className='mb-8 w-full lg:w-1/5'>
-            <h2 className='text-xl font-semibold mb-2'>Useful links</h2>
-            <ul className='flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
+
               <li>
                 <Link
-                  href='/contribute'
+                  href='/contact'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  How to contribute
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/data-for-london-library'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Visit the Data for London Library
+                  Contact us
                 </Link>
               </li>
               <li>
@@ -68,9 +77,28 @@ const Footer: React.FC = () => {
                   href='/report-bug'
                   className='text-white hover:text-white no-underline hover:underline'
                 >
-                  Report a bug or issue
+                  How to report a bug
                 </Link>
               </li>
+            </ul>
+            <ul className='text-lg list-none space-y-4'>
+              <li>
+                <Link
+                  href='https://dfl-library.london.gov.uk/'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Visit the Data for London Library
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/faq'
+                  className='text-white hover:text-white no-underline hover:underline'
+                >
+                  Frequently asked questions
+                </Link>
+              </li>
+
               <li>
                 <Link
                   href='/user-research-pool'
@@ -90,80 +118,33 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
             </ul>
-          </section>
-          <section className='mb-8 w-full lg:w-1/5'>
-            <h2 className='text-xl font-semibold mb-2'>Support</h2>
-            <ul className='flex-col basis-1/2 flex-wrap list-none pl-0 space-y-2'>
-              <li>
-                <Link
-                  href='/faq'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/privacy-policy'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Privacy policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/terms-and-conditions'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Terms and conditions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/accessibility'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Accessibility
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/contact'
-                  className='text-white hover:text-white no-underline hover:underline'
-                >
-                  Contact us
-                </Link>
-              </li>
-            </ul>
-          </section>
-        </div>
-        <div className='flex-col '>
-          <section>
-            <p className='text-sm'>
-              We use cookies to ensure we give you the best experience on our
-              website. Find out more about cookies in our{' '}
-              <Link
-                href='/privacy-policy'
-                className='text-white hover:text-white hover:underline'
-              >
-                privacy policy
-              </Link>
-              . View{' '}
-              <Link
-                href='/cookie-settings'
-                className='text-white hover:text-white hover:underline'
-              >
-                cookie settings
-              </Link>
-              .
-            </p>
-          </section>
-          <section>
-            <p className='text-sm'>
-              © Copyright 2024, Greater London Authority.
-            </p>
-          </section>
-        </div>
+          </div>
+        </section>
+      </div>
+
+      {/* Footer Bottom */}
+      <div className='flex flex-col justify-between items-start mx-auto max-w-[1200px] w-full px-4 py-4 bg-footer-darker'>
+        <p className='text-base'>
+          We use cookies to ensure we give you the best experience on our
+          website. Find out more about cookies in our{' '}
+          <Link
+            href='/privacy-policy'
+            className='text-white hover:text-white hover:underline'
+          >
+            privacy policy
+          </Link>
+          . View{' '}
+          <Link
+            href='/cookie-settings'
+            className='text-white hover:text-white hover:underline'
+          >
+            cookie settings
+          </Link>
+          .
+        </p>
+        <p className='text-base mt-4 md:mt-0'>
+          © Copyright 2024, Greater London Authority.
+        </p>
       </div>
     </footer>
   );
