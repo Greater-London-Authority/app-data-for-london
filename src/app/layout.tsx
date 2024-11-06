@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 // Below insert links to show in the navigation bar
 const navigationLinks = [
   { href: '/', label: 'Home' },
-  { href: '/search', label: 'Library' },
-  { href: '/login', label: 'Log in' },
+  { href: 'https://dfl-library.london.gov.uk/dataset', label: 'Library' },
+  { href: 'https://dfl-library.london.gov.uk/user/login', label: 'Log in' },
 ];
 
 export default function RootLayout({
