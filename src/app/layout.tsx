@@ -4,7 +4,6 @@ import Nav from '@/components/Nav';
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 import Script from 'next/script';
-import Head from 'next/head';
 
 export const metadata: Metadata = {
   title: 'Data for London',
