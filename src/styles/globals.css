@@ -68,3 +68,7 @@ ol li p {
   background-color: var(--darkpink);
   color: white;
 }
+
+[role='button'] {
+  text-decoration: underline;
+}
