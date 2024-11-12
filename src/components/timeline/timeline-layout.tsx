@@ -21,43 +21,32 @@ export interface TimelineElement {
 }
 
 interface TimelineLayoutProps {
+  items: TimelineElement[];
+  orientation?: 'vertical' | 'horizontal';
+}
+
+interface TimelineLayoutProps {
   items: TimelineElement[]; // Replace any[] with the actual type of items.
 }
-export const TimelineLayout = ({ items }: TimelineLayoutProps) => {
+export const TimelineLayout = ({
+  items,
+  orientation = 'vertical',
+}: TimelineLayoutProps) => {
   return (
-    <Timeline>
-      <TimelineItem>
-        <TimelineConnector />
-        <TimelineHeader>
-          <TimelineTime>{items[0].date}</TimelineTime>
-          <TimelineIcon />
-          <TimelineTitle>{items[0].title}</TimelineTitle>
-        </TimelineHeader>
-        <TimelineContent>
-          <TimelineDescription>{items[0].description}</TimelineDescription>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineConnector />
-        <TimelineHeader>
-          <TimelineTime>{items[1].date}</TimelineTime>
-          <TimelineIcon />
-          <TimelineTitle>{items[1].title}</TimelineTitle>
-        </TimelineHeader>
-        <TimelineContent>
-          <TimelineDescription>{items[1].description}</TimelineDescription>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineHeader>
-          <TimelineTime>{items[2].date}</TimelineTime>
-          <TimelineIcon />
-          <TimelineTitle>{items[2].title}</TimelineTitle>
-        </TimelineHeader>
-        <TimelineContent>
-          <TimelineDescription>{items[2].description}</TimelineDescription>
-        </TimelineContent>
-      </TimelineItem>
+    <Timeline orientation={orientation}>
+      {items.map((item) => (
+        <TimelineItem orientation={orientation} key={item.id}>
+          <TimelineConnector orientation={orientation} />
+          <TimelineHeader orientation={orientation}>
+            <TimelineTime orientation={orientation}>{item.date}</TimelineTime>
+            <TimelineIcon orientation={orientation} />
+            <TimelineTitle>{item.title}</TimelineTitle>
+          </TimelineHeader>
+          <TimelineContent orientation={orientation}>
+            <TimelineDescription>{item.description}</TimelineDescription>
+          </TimelineContent>
+        </TimelineItem>
+      ))}
     </Timeline>
   );
 };
