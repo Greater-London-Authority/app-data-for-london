@@ -1,14 +1,11 @@
 import * as React from 'react';
 import { cn } from '@/lib/utils';
-import styles from '@/styles/timeline-styles.module.css';
 
 const Timeline = React.forwardRef<
   HTMLOListElement,
   React.HTMLAttributes<HTMLOListElement>
 >(({ className, ...props }, ref) => (
-  <div className={styles['timeline-root']}>
-    <ol ref={ref} className={cn('flex flex-col', className)} {...props} />
-  </div>
+  <ol ref={ref} className={cn('flex flex-col', className)} {...props} />
 ));
 Timeline.displayName = 'Timeline';
 
