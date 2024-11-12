@@ -34,7 +34,7 @@ const TimelineTime = React.forwardRef<
   <p
     ref={ref}
     className={cn(
-      'absolute translate-x-36 md:-translate-x-24 text-sm font-semibold leading-none text-ldn-dark',
+      'absolute translate-x-36 md:-translate-x-24 text-sm font-semibold leading-none text-ldn-dark m-0',
       className
     )}
     {...props}
@@ -76,7 +76,7 @@ const TimelineTitle = React.forwardRef<
   <h3
     ref={ref}
     className={cn(
-      'font-semibold leading-none tracking-tight text-ldn-dark',
+      'font-semibold leading-none tracking-tight text-ldn-dark m-0',
       className
     )}
     {...props}
@@ -104,7 +104,7 @@ const TimelineDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <p
     ref={ref}
-    className={cn('text-sm text-ldn-dark max-w-sm', className)}
+    className={cn('text-sm text-ldn-dark max-w-sm m-0', className)}
     {...props}
   />
 ));
@@ -116,7 +116,10 @@ const TimelineContent = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn('flex flex-col items-start p-6 pt-0', className)}
+    className={cn(
+      'flex flex-col items-start ml-7 py-4 px-6 border-darkpink border-2 rounded-[6px]',
+      className
+    )}
     {...props}
   />
 ));
