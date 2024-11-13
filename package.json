@@ -12,7 +12,6 @@
 		"clsx": "^2.1.1",
 		"next": "^15.0.3",
 		"react": "^18.3.1",
-		"react-chrono": "^2.6.1",
 		"react-dom": "^18.3.1",
 		"react-markdown": "^9.0.1",
 		"react-social-icons": "^6.18.0",
