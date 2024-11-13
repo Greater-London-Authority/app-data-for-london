@@ -91,6 +91,8 @@ ol li p {
   margin-left: 3rem;
   margin-right: 3rem;
   height: 400px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Default Vertical Timeline Item */
@@ -182,11 +184,11 @@ ol li p {
 
 /* Horizonta Time Item */
 .horizontal-timeline-item-above .horizontal-time {
-  translate: -0.7rem 1rem;
+  translate: -0.7rem 1.1rem;
 }
 
 .horizontal-timeline-item-below .horizontal-time {
-  translate: -0.7rem -1rem;
+  translate: -0.7rem -1.1rem;
 }
 
 /* Default Vertical header */
