@@ -25,9 +25,12 @@ export const TimelineLayout = ({
 }: TimelineLayoutProps) => {
   return (
     <Timeline orientation={orientation}>
-      {items.map((item) => (
+      {items.map((item, index) => (
         <TimelineItem orientation={orientation} key={item.id}>
-          <TimelineConnector orientation={orientation} />
+          <TimelineConnector
+            orientation={orientation}
+            isLast={index === items.length - 1}
+          />
           <TimelineHeader orientation={orientation}>
             <TimelineTime orientation={orientation}>{item.date}</TimelineTime>
             <TimelineIcon orientation={orientation} />

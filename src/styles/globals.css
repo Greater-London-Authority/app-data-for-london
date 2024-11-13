@@ -169,3 +169,29 @@ ol li p {
 .horizontal-content {
   margin-left: 0.75rem;
 }
+
+/* Base styling for the arrow */
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* Arrow styling for horizontal orientation */
+.arrow-horizontal {
+  right: -10px; /* Position arrow at the end of the connector */
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent var(--darkpink); /* Replace with your desired color */
+}
+
+/* Arrow styling for vertical orientation */
+.arrow-vertical {
+  bottom: -10px; /* Position arrow at the end of the connector */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px 5px 0 5px;
+  border-color: var(--darkpink) transparent transparent transparent; /* Replace with your desired color */
+}

@@ -63,18 +63,30 @@ const TimelineConnector = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement> & {
     orientation?: 'vertical' | 'horizontal';
+    isLast: false | true;
   }
->(({ className, orientation = 'vertical', ...props }, ref) => (
+>(({ className, orientation = 'vertical', isLast = false, ...props }, ref) => (
   <div
     ref={ref}
     className={cn(
+      'relative',
       orientation === 'horizontal'
         ? 'horizontal-connector'
         : 'vertical-connector',
       className
     )}
     {...props}
-  />
+  >
+    {/* Conditionally render the arrow if it's the last connector */}
+    {isLast && (
+      <div
+        className={cn(
+          'arrow',
+          orientation === 'horizontal' ? 'arrow-horizontal' : 'arrow-vertical'
+        )}
+      />
+    )}
+  </div>
 ));
 TimelineConnector.displayName = 'TimelineConnector';
 
