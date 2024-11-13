@@ -2,23 +2,57 @@ export const timelineData = [
   {
     id: 1,
     title: 'First event',
-    date: '2022-01-01',
+    date: '2010',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio euismod lacinia at quis risus sed vulputate odio ut. Quam viverra orci sagittis eu volutpat odio facilisis mauris.',
+      'London Datastore, is launched, the first data platform for a major city globally',
   },
   {
     id: 2,
     title: 'Second event',
-    date: '2022-02-01',
-    description:
-      'Aut eius excepturi ex recusandae eius est minima molestiae. Nam dolores iusto ad fugit reprehenderit hic dolorem quisquam et quia omnis non suscipit nihil sit libero distinctio. Ad dolorem tempora sit nostrum voluptatem qui tempora unde? Sit rerum magnam nam ipsam nesciunt aut rerum necessitatibus est quia esse non magni quae.',
+    date: '2011',
+    description: 'Census data is added to the London Datastore',
   },
   {
     id: 3,
     title: 'Third event',
-    date: '2022-03-01',
+    date: '2015',
     description:
-      'Sit culpa quas ex nulla animi qui deleniti minus rem placeat mollitia. Et enim doloremque et quia sequi ea dolores voluptatem ea rerum vitae. Aut itaque incidunt est aperiam vero sit explicabo fuga id optio quis et molestiae nulla ex quae quam. Ab eius dolores ab tempora dolorum eos beatae soluta At ullam placeat est incidunt cumque.',
+      'London Datastore wins gold for the Open Data Institute Publisher Award',
+  },
+  {
+    id: 4,
+    title: 'Fourth event',
+    date: '2018',
+    description:
+      'Smart London Together launches to transform London into the smartest city in the world',
+  },
+  {
+    id: 5,
+    title: 'Fifth event',
+    date: '2020',
+    description:
+      'London Datastore creates COVID-19 Dashboard, an estimated 20,000 users access this dashboard monthly',
+  },
+  {
+    id: 6,
+    title: 'Sixth event',
+    date: '2021',
+    description:
+      'Mayor’s Manifesto for London commits to ‘harness data and emerging tech for our city’',
+  },
+  {
+    id: 7,
+    title: 'Seventh event',
+    date: '2022',
+    description:
+      'The Mayor’s Data for London Advisory Board forms, bringing the greatest data, tech and AI minds in London together',
+  },
+  {
+    id: 8,
+    title: 'Eigth event',
+    date: '2024',
+    description:
+      'Data for London and Data for London Library beta service launches',
   },
 ];
 

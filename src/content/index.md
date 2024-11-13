@@ -31,19 +31,3 @@ Visit the [Data for London Library](https://dfl-library.london.gov.uk) to search
 Our data story started many years ago. A pivotal moment was the creation of the London Datastore. The London Datastore provides data services and benefits to Londoners and is used by millions of people. Over the years it has evolved alongside the dynamic needs of Londoners and its data community. Join us in celebrating the milestones that shaped London into the powerhouse that it is today.
 
 **See London data milestones:**
-
-- 2010 – London Datastore, is launched, the first data platform for a major city globally
-
-- 2011 – Census data is added to the London Datastore
-
-- [9 July] 2015 – London Datastore wins gold for the Open Data Institute Publisher Award
-
-- 2018 – Smart London Together launches to transform London into the smartest city in the world
-
-- 2020 – London Datastore creates COVID-19 Dashboard, an estimated 20,000 users access this dashboard monthly.
-
-- 2021 – Mayor’s Manifesto for London commits to ‘harness data and emerging tech for our city’.
-
-- 2022 – The Mayor’s Data for London Advisory Board forms, bringing the greatest data, tech and AI minds in London together.
-
-- 2024 – Data for London and Data for London Library beta service launches
