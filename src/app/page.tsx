@@ -43,9 +43,7 @@ export default async function Home() {
       <div className='block text-left max-w-[1200px] px-4 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
-      <div className='w-fit max-w-[1200px] m-auto'>
-        <TimelineContainer items={timelineData} />
-      </div>
+      <TimelineContainer items={timelineData} />
     </div>
   );
 }
