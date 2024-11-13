@@ -26,7 +26,19 @@ export const TimelineLayout = ({
   return (
     <Timeline orientation={orientation}>
       {items.map((item, index) => (
-        <TimelineItem orientation={orientation} key={item.id}>
+        <TimelineItem
+          key={item.id}
+          orientation={orientation}
+          isAbove={orientation === 'horizontal' && index % 2 === 0}
+        >
+          {orientation === 'horizontal' && index % 2 === 0 && (
+            <TimelineContent
+              orientation={orientation}
+              className='horizontal-content-above'
+            >
+              <TimelineDescription>{item.description}</TimelineDescription>
+            </TimelineContent>
+          )}
           <TimelineConnector
             orientation={orientation}
             isLast={index === items.length - 1}
@@ -34,11 +46,23 @@ export const TimelineLayout = ({
           <TimelineHeader orientation={orientation}>
             <TimelineTime orientation={orientation}>{item.date}</TimelineTime>
             <TimelineIcon orientation={orientation} />
-            <TimelineTitle>{item.title}</TimelineTitle>
           </TimelineHeader>
-          <TimelineContent orientation={orientation}>
-            <TimelineDescription>{item.description}</TimelineDescription>
-          </TimelineContent>
+          {/* Render content below the timeline for odd-indexed items in horizontal orientation */}
+          {orientation === 'horizontal' && index % 2 !== 0 && (
+            <TimelineContent
+              orientation={orientation}
+              className='horizontal-content-below'
+            >
+              <TimelineDescription>{item.description} </TimelineDescription>
+            </TimelineContent>
+          )}
+
+          {/* For vertical orientation, render content normally */}
+          {orientation === 'vertical' && (
+            <TimelineContent orientation={orientation}>
+              <TimelineDescription>{item.description}</TimelineDescription>
+            </TimelineContent>
+          )}
         </TimelineItem>
       ))}
     </Timeline>

@@ -10,7 +10,7 @@ const Timeline = React.forwardRef<
   <ol
     ref={ref}
     className={cn(
-      'timeline flex flex-col',
+      'timeline',
       orientation === 'horizontal'
         ? 'horizontal-timeline'
         : 'vertical-timeline',
@@ -25,20 +25,28 @@ const TimelineItem = React.forwardRef<
   HTMLLIElement,
   React.LiHTMLAttributes<HTMLLIElement> & {
     orientation?: 'vertical' | 'horizontal';
+    isAbove?: boolean;
   }
->(({ className, orientation = 'vertical', ...props }, ref) => (
-  <li
-    ref={ref}
-    className={cn(
-      'timeline relative flex flex-col [&>*]:mb-3',
-      orientation === 'horizontal'
-        ? 'horizontal-timeline-item'
-        : 'vertical-timeline-item',
-      className
-    )}
-    {...props}
-  />
-));
+>(
+  (
+    { className, orientation = 'vertical', isAbove = 'false', ...props },
+    ref
+  ) => (
+    <li
+      ref={ref}
+      className={cn(
+        'timeline relative [&>*]:mb-3',
+        orientation === 'horizontal'
+          ? isAbove
+            ? 'horizontal-timeline-item-above'
+            : 'horizontal-timeline-item-below'
+          : 'vertical-timeline-item',
+        className
+      )}
+      {...props}
+    />
+  )
+);
 TimelineItem.displayName = 'TimelineItem';
 
 const TimelineTime = React.forwardRef<
@@ -99,7 +107,6 @@ const TimelineHeader = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      'flex items-center gap-4',
       orientation === 'horizontal' ? 'horizontal-header' : 'vertical-header',
       className
     )}
