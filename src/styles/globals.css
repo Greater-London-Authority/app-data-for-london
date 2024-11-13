@@ -96,6 +96,9 @@ ol li p {
 /* Default Vertical Timeline Item */
 .vertical-timeline-item {
   padding: 24px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 /* Horizontal Timeline Item */
@@ -146,6 +149,32 @@ ol li p {
   margin-bottom: 0px;
 }
 
+.vertical-content-connector {
+  border: 1px dashed;
+  background-color: transparent;
+  color: var(--darkpink);
+  width: 30px;
+  position: absolute;
+  left: 32px;
+}
+
+.horizontal-content-connector {
+  border: 1px dashed;
+  background-color: transparent;
+  color: var(--darkpink);
+  height: 36px;
+  position: absolute;
+  left: calc(50% - 1px);
+}
+
+.horizontal-timeline-item-above .horizontal-content-connector {
+  top: 89%;
+}
+
+.horizontal-timeline-item-below .horizontal-content-connector {
+  top: 0px;
+}
+
 /* Default Vertical Time Item */
 .vertical-time {
   translate: -6rem;
@@ -192,7 +221,6 @@ ol li p {
 /* Default Vertical Content */
 .vertical-content {
   margin-left: 1.75rem;
-  transform: translateY(-1rem);
 }
 
 /* Horizontal Content */

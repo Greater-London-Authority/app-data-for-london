@@ -5,8 +5,8 @@ import {
   Timeline,
   TimelineItem,
   TimelineConnector,
+  TimelineContentConnector,
   TimelineHeader,
-  TimelineTitle,
   TimelineIcon,
   TimelineDescription,
   TimelineContent,
@@ -47,6 +47,7 @@ export const TimelineLayout = ({
             <TimelineTime orientation={orientation}>{item.date}</TimelineTime>
             <TimelineIcon orientation={orientation} />
           </TimelineHeader>
+          <TimelineContentConnector orientation={orientation} />
           {/* Render content below the timeline for odd-indexed items in horizontal orientation */}
           {orientation === 'horizontal' && index % 2 !== 0 && (
             <TimelineContent

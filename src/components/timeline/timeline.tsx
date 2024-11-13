@@ -58,7 +58,7 @@ const TimelineTime = React.forwardRef<
   <p
     ref={ref}
     className={cn(
-      'absolute text-sm font-semibold leading-none text-ldn-dark m-0',
+      'absolute text-base font-semibold leading-none text-ldn-dark m-0',
       orientation === 'horizontal' ? 'horizontal-time' : 'vertical-time',
       className
     )}
@@ -156,7 +156,7 @@ const TimelineDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <p
     ref={ref}
-    className={cn('text-sm text-ldn-dark max-w-sm m-0', className)}
+    className={cn('text-base text-ldn-dark max-w-sm m-0', className)}
     {...props}
   />
 ));
@@ -180,10 +180,30 @@ const TimelineContent = React.forwardRef<
 ));
 TimelineContent.displayName = 'TimelineContent';
 
+const TimelineContentConnector = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement> & {
+    orientation?: 'vertical' | 'horizontal';
+  }
+>(({ className, orientation = 'vertical', ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      orientation === 'horizontal'
+        ? 'horizontal-content-connector'
+        : 'vertical-content-connector',
+      className
+    )}
+    {...props}
+  ></div>
+));
+TimelineContentConnector.displayName = 'TimelineContentConnector';
+
 export {
   Timeline,
   TimelineItem,
   TimelineConnector,
+  TimelineContentConnector,
   TimelineHeader,
   TimelineTitle,
   TimelineIcon,
