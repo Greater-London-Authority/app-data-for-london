@@ -79,9 +79,10 @@ ol li p {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
+  margin-left: 5rem;
 }
 
-/* Horizontar Timeline */
+/* Horizontal Timeline */
 .horizontal-timeline {
   display: flex;
   flex-direction: row;
@@ -116,7 +117,7 @@ ol li p {
 
 /* Default Vertical Time Item */
 .vertical-time {
-  translate: 6rem;
+  translate: -6rem;
 }
 
 /* Horizonta Time Item */

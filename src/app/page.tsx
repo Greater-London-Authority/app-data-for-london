@@ -1,7 +1,7 @@
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 import Hero from '@/components/Hero';
-import { TimelineLayout } from '@/components/timeline/timeline-layout';
+import TimelineContainer from '@/components/timeline/TimelineContainer';
 
 export default async function Home() {
   const content = await getMarkdownContent('index.md');
@@ -44,7 +44,7 @@ export default async function Home() {
         <MarkdownRenderer content={content} />
       </div>
       <div className='w-fit max-w-[1200px] m-auto'>
-        <TimelineLayout items={timelineData} orientation='horizontal' />
+        <TimelineContainer items={timelineData} />
       </div>
     </div>
   );

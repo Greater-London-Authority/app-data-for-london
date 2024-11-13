@@ -11,7 +11,7 @@ import {
   TimelineDescription,
   TimelineContent,
   TimelineTime,
-} from '@/components/timeline/timeline';
+} from '@/components/timeline/Timeline';
 
 export interface TimelineElement {
   id: number;
@@ -25,9 +25,6 @@ interface TimelineLayoutProps {
   orientation?: 'vertical' | 'horizontal';
 }
 
-interface TimelineLayoutProps {
-  items: TimelineElement[]; // Replace any[] with the actual type of items.
-}
 export const TimelineLayout = ({
   items,
   orientation = 'vertical',
