@@ -101,7 +101,7 @@ ol li p {
 .horizontal-timeline-item {
   padding: 0px;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; /* modify depending on required margin and 'time' element size */
 }
 
 /* Vertical Connector (default) */
@@ -128,10 +128,10 @@ ol li p {
 /* Horizontal Connector */
 .horizontal-connector {
   position: relative;
-  width: 100%; /* Full width below content */
-  height: 2px; /* Thin horizontal line */
+  width: 100%;
+  height: 2px;
   background-color: var(--darkpink);
-  margin-top: 16px; /* Adds spacing between content and connector */
+  margin-top: 16px;
 }
 
 /* Default Vertical header */
@@ -147,7 +147,7 @@ ol li p {
 /* Default Vertical Icon */
 .vertical-icon {
   position: relative;
-  top: auto; /* Normal position */
+  top: auto;
   left: 0;
 }
 
@@ -156,7 +156,7 @@ ol li p {
   position: relative;
   top: -28px; /* Adjust to align with the connector */
   left: 0;
-  margin-bottom: -8px; /* Ensures icon doesn’t push content down */
+  margin-bottom: -8px;
 }
 
 /* Default Vertical Content */
