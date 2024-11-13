@@ -12,13 +12,7 @@ import {
   TimelineContent,
   TimelineTime,
 } from '@/components/timeline/Timeline';
-
-export interface TimelineElement {
-  id: number;
-  title: string;
-  date: string;
-  description: string;
-}
+import { TimelineElement } from '@/content/timelineData';
 
 interface TimelineLayoutProps {
   items: TimelineElement[];
