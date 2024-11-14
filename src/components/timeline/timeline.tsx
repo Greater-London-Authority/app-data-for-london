@@ -35,7 +35,7 @@ const TimelineItem = React.forwardRef<
     <li
       ref={ref}
       className={cn(
-        'timeline relative [&>*]:mb-3',
+        'timeline-item relative',
         orientation === 'horizontal'
           ? isAbove
             ? 'horizontal-timeline-item-above'
@@ -58,7 +58,7 @@ const TimelineTime = React.forwardRef<
   <p
     ref={ref}
     className={cn(
-      'absolute text-base font-semibold leading-none text-ldn-dark m-0',
+      'absolute text-base font-semibold text-ldn-dark m-0',
       orientation === 'horizontal' ? 'horizontal-time' : 'vertical-time',
       className
     )}

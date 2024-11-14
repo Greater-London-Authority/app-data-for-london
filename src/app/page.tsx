@@ -20,7 +20,9 @@ export default async function Home() {
       <div className='block text-left max-w-[1200px] px-4 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
-      <TimelineContainer items={timelineData} />
+      <div className='max-w-[1200px] px-4 my-4 mx-auto'>
+        <TimelineContainer items={timelineData} />
+      </div>
     </div>
   );
 }

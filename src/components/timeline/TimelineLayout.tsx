@@ -31,14 +31,6 @@ export const TimelineLayout = ({
           orientation={orientation}
           isAbove={orientation === 'horizontal' && index % 2 === 0}
         >
-          {orientation === 'horizontal' && index % 2 === 0 && (
-            <TimelineContent
-              orientation={orientation}
-              className='horizontal-content-above'
-            >
-              <TimelineDescription>{item.description}</TimelineDescription>
-            </TimelineContent>
-          )}
           <TimelineConnector
             orientation={orientation}
             isLast={index === items.length - 1}
@@ -48,14 +40,27 @@ export const TimelineLayout = ({
             <TimelineIcon orientation={orientation} />
           </TimelineHeader>
           <TimelineContentConnector orientation={orientation} />
-          {/* Render content below the timeline for odd-indexed items in horizontal orientation */}
+          {/* Apply content classes for content below the timeline for odd-indexed items in horizontal orientation */}
           {orientation === 'horizontal' && index % 2 !== 0 && (
-            <TimelineContent
-              orientation={orientation}
-              className='horizontal-content-below'
-            >
-              <TimelineDescription>{item.description} </TimelineDescription>
-            </TimelineContent>
+            <div className='content-row-below'>
+              <TimelineContent
+                orientation={orientation}
+                className='horizontal-content-below'
+              >
+                <TimelineDescription>{item.description} </TimelineDescription>
+              </TimelineContent>
+            </div>
+          )}
+          {/* Apply content classes for content above the timeline for even-indexed items in horizontal orientation */}
+          {orientation === 'horizontal' && index % 2 === 0 && (
+            <div className='content-row-above'>
+              <TimelineContent
+                orientation={orientation}
+                className='horizontal-content-above'
+              >
+                <TimelineDescription>{item.description}</TimelineDescription>
+              </TimelineContent>
+            </div>
           )}
 
           {/* For vertical orientation, render content normally */}
