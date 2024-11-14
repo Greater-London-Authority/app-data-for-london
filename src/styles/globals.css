@@ -86,9 +86,7 @@ ol li p {
 .horizontal-timeline {
   display: flex;
   flex-direction: row;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  height: 400px;
+  height: 500px;
 }
 
 /* Default Vertical Timeline Item */
