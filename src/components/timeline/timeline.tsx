@@ -125,7 +125,7 @@ const TimelineTitle = React.forwardRef<
     {children}
   </h3>
 ));
-TimelineTitle.displayName = 'CardTitle';
+TimelineTitle.displayName = 'TimelineTitle';
 
 const TimelineIcon = React.forwardRef<
   HTMLDivElement,
