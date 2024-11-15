@@ -72,7 +72,6 @@ const TimelineConnector = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      'relative',
       orientation === 'horizontal'
         ? 'horizontal-connector'
         : 'vertical-connector',
