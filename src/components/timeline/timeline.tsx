@@ -27,26 +27,21 @@ const TimelineItem = React.forwardRef<
     orientation?: 'vertical' | 'horizontal';
     isAbove?: boolean;
   }
->(
-  (
-    { className, orientation = 'vertical', isAbove = 'false', ...props },
-    ref
-  ) => (
-    <li
-      ref={ref}
-      className={cn(
-        'timeline-item relative',
-        orientation === 'horizontal'
-          ? isAbove
-            ? 'horizontal-timeline-item-above'
-            : 'horizontal-timeline-item-below'
-          : 'vertical-timeline-item',
-        className
-      )}
-      {...props}
-    />
-  )
-);
+>(({ className, orientation = 'vertical', isAbove = false, ...props }, ref) => (
+  <li
+    ref={ref}
+    className={cn(
+      'timeline-item relative',
+      orientation === 'horizontal'
+        ? isAbove
+          ? 'horizontal-timeline-item-above'
+          : 'horizontal-timeline-item-below'
+        : 'vertical-timeline-item',
+      className
+    )}
+    {...props}
+  />
+));
 TimelineItem.displayName = 'TimelineItem';
 
 const TimelineTime = React.forwardRef<
