@@ -22,35 +22,25 @@ const TimelineContainer: React.FC<TimelineContainerProps> = ({
   items,
   orientation,
 }) => {
+  // Default to 'vertical' to match server-rendered output
   const [responsiveOrientation, setResponsiveOrientation] = useState<
     'vertical' | 'horizontal'
-  >(() => {
-    // Ensure this code only runs in the browser
-    if (typeof window !== 'undefined') {
-      return window.innerWidth < 1024 ? 'vertical' : 'horizontal';
-    }
-    return 'vertical'; // Default fallback value for SSR
-  });
+  >('vertical');
 
-  //   control orientation based on screen size if no orientation prop is passed.
   useEffect(() => {
-    if (orientation) return;
-    const handleResize = () => {
-      setResponsiveOrientation(
-        window.innerWidth < 1024 ? 'vertical' : 'horizontal'
-      );
-    };
+    if (!orientation) {
+      // Update orientation based on window size in the browser
+      const handleResize = () => {
+        setResponsiveOrientation(
+          window.innerWidth < 1024 ? 'vertical' : 'horizontal'
+        );
+      };
 
-    // Add event listener in the browser
-    if (typeof window !== 'undefined') {
+      handleResize(); // Set initial value
       window.addEventListener('resize', handleResize);
-    }
 
-    return () => {
-      if (typeof window !== 'undefined') {
-        window.removeEventListener('resize', handleResize);
-      }
-    };
+      return () => window.removeEventListener('resize', handleResize);
+    }
   }, [orientation]);
 
   const finalOrientation = orientation || responsiveOrientation;
