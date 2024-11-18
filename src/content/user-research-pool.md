@@ -1,12 +1,12 @@
-# Join our User Research Pool
+# Join our user research pool
 
 **Help shape the future of London’s Data Platform**
 
-At Data for London, we believe that the best services are created in collaboration with the people who use them. Your insights and experiences are valuable in helping us design, build, and improve the digital tools and services that support our city. By joining the User Research Pool, you can play a crucial role in shaping the future of London’s data services.
+At Data for London, we believe that the best services are created in collaboration with the people who use them. Your insights and experiences are valuable in helping us design, build, and improve the digital tools and services that support our city. By joining the user research pool, you can play a crucial role in shaping the future of London’s data services.
 
-## What is the User Research Pool?
+## What is the user research pool?
 
-The DfL User Research Pool is a community of Londoners who are willing to participate in research activities to help us understand how our services are used and how they can be improved. By joining the pool, you may be invited to participate in activities such as:
+The Data for London user research pool is a community of Londoners who are willing to participate in research activities to help us understand how our services are used and how they can be improved. By joining the pool, you may be invited to participate in activities such as:
 
 - **Interviews**: Share your thoughts directly with our research team
 
@@ -28,11 +28,11 @@ Learn and contribute – Gain insights into how digital and data services are de
 
 Flexible participation – You can choose how and when you participate. We will only contact you when there are research activities that match your profile and interests.
 
-## How to Join
+## How to join
 
-Joining the User Research Pool is simple and takes just a few minutes.
+Joining the user research pool is simple and takes just a few minutes.
 
-### To Sign up:
+**To sign up:**
 
 Complete the Registration Form here.
 
@@ -40,18 +40,18 @@ Stay informed – once you’re part of the pool, we’ll reach out when we have
 
 Participate and share – When you join a research activity, we’ll guide you through what’s involved. Your input will be used to help us create better, more user-friendly services.
 
-### To Share:
+**To share:**
 
 If you know colleagues or peers who might also be interested in helping us improve Data for London services, we encourage you to share this opportunity with them. The more diverse perspectives we have, the better we can tailor our services to meet the needs of all Londoners.
 
 You can easily share this link with others who may want to join:
 
-Follow the link to access the form:
-
-- [Link](/form)
+Follow the link to access the form
 
 Scan the QR code to access the form:
 
-## Privacy and Confidentiality
+## Privacy and confidentiality
 
 Your privacy is important to us. All information you provide will be kept confidential and used only for the purposes of improving our services. Participation is voluntary, and you can withdraw from the research pool at any time.
+
+Email us at [datastore@london.gov.uk](mailto:datastore@london.gov.uk) to withdraw from the user research pool.
