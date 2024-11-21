@@ -9,6 +9,12 @@
   --ldn-light: #868b83;
   --darkpink: #9e0059;
   --white: #ffffff;
+  /* timeline variables */
+  --connector-content-gap: 56px;
+  --horizontal-time-gap: 28px;
+  --vertical-time-gap: -64px;
+  --main-connector-width: 2px;
+  --callout-connector-width: 1px;
 }
 
 body {
@@ -71,4 +77,206 @@ ol li p {
 
 [role='button'] {
   text-decoration: underline;
+}
+
+.timeline {
+  display: flex;
+}
+
+/* Default Vertical Timeline */
+.vertical-timeline {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+/* Horizontal Timeline */
+.horizontal-timeline {
+  flex-direction: row;
+  height: 500px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+}
+/* Default Vertical Timeline Item */
+.vertical-timeline-item {
+  padding: 24px;
+  justify-content: start;
+}
+
+/* Horizontal Timeline Item */
+.horizontal-timeline-item-above,
+.horizontal-timeline-item-below {
+  flex-direction: column;
+  position: relative;
+  max-width: 12.5%;
+}
+
+.horizontal-timeline-item-above {
+  justify-content: start;
+}
+
+.horizontal-timeline-item-below {
+  justify-content: end;
+}
+
+.vertical-connector,
+.horizontal-connector {
+  position: absolute;
+  background-color: var(--darkpink);
+}
+
+/* Vertical Connector (default) */
+.vertical-connector {
+  top: 5px;
+  left: 30px;
+  height: 100%;
+  width: var(--main-connector-width);
+}
+
+/* Horizontal Connector */
+.horizontal-connector {
+  top: 50%;
+  bottom: 50%;
+  width: 100%;
+  height: var(--main-connector-width);
+}
+
+.vertical-content-connector,
+.horizontal-content-connector {
+  border: var(--callout-connector-width) dashed var(--darkpink);
+  background-color: transparent;
+  position: absolute;
+}
+
+.vertical-content-connector {
+  width: var(--connector-content-gap);
+  left: 32px;
+}
+
+.horizontal-content-connector {
+  height: var(
+    --connector-content-gap
+  ); /* To match content distance from centerline */
+  left: calc(50% - 1px);
+}
+
+.horizontal-timeline-item-above .horizontal-content-connector {
+  top: calc(50% - var(--connector-content-gap));
+  bottom: calc(50% + var(--connector-content-gap));
+}
+
+.horizontal-timeline-item-below .horizontal-content-connector {
+  top: 50%;
+  bottom: 50%;
+}
+
+.vertical-header,
+.horizontal-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Default Vertical header */
+.vertical-header {
+  column-gap: 1rem;
+}
+
+.horizontal-header {
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  text-wrap: nowrap;
+  column-gap: 0rem;
+}
+
+/* Default Vertical Icon */
+.vertical-icon {
+  position: absolute;
+  left: 25px;
+}
+
+.horizontal-icon {
+  position: absolute;
+}
+
+/* Default Vertical Time Item */
+.vertical-time {
+  position: relative;
+  left: var(--vertical-time-gap);
+}
+
+/* Horizonta Time Item */
+.horizontal-timeline-item-above .horizontal-time {
+  position: relative;
+  top: var(--horizontal-time-gap);
+}
+
+.horizontal-timeline-item-below .horizontal-time {
+  position: relative;
+  bottom: var(--horizontal-time-gap);
+}
+
+.content-row-below,
+.content-row-above {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-row-above {
+  justify-content: end;
+  padding-bottom: var(
+    --connector-content-gap
+  ); /* Content distance from the centerline */
+}
+
+/* Default Vertical Content */
+.vertical-content {
+  margin-left: calc(var(--connector-content-gap) - 26px);
+}
+
+/* Horizontal Content */
+.horizontal-content {
+  margin-bottom: 0px;
+  width: 250px;
+  max-height: 250px;
+  position: relative;
+}
+
+.content-row-below {
+  justify-content: start;
+  padding-top: var(
+    --connector-content-gap
+  ); /* Content distance from the centerline */
+}
+
+/* Base styling for the arrow */
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* Arrow styling for horizontal orientation */
+.arrow-horizontal {
+  right: -8px; /* Position arrow at the end of the connector */
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent var(--darkpink); /* Replace with your desired color */
+}
+
+/* Arrow styling for vertical orientation */
+.arrow-vertical {
+  bottom: -10px; /* Position arrow at the end of the connector */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px 5px 0 5px;
+  border-color: var(--darkpink) transparent transparent transparent; /* Replace with your desired color */
 }
