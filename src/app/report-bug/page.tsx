@@ -2,7 +2,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 
-export default async function PrivacyPolicy() {
+export default async function ReportBug() {
   const content = await getMarkdownContent('report-bug.md');
   const breadcrumbs = [
     { label: 'Home', href: '/' },

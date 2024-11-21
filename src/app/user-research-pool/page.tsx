@@ -2,7 +2,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 
-export default async function TermsAndConditions() {
+export default async function UserResearchPool() {
   const content = await getMarkdownContent('user-research-pool.md');
   const breadcrumbs = [
     { label: 'Home', href: '/' },
