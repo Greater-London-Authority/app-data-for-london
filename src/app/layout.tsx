@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
+import BypassBlock from '@/components/BypassBlock';
 import Nav from '@/components/Nav';
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
@@ -41,10 +42,11 @@ export default function RootLayout({
           }}
         />
         <header>
+          <BypassBlock />
           <Banner></Banner>
           <Nav links={navigationLinks} />
         </header>
-        <main>{children}</main>
+        <main id='main'>{children}</main>
         <Footer></Footer>
       </body>
     </html>
