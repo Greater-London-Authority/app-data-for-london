@@ -1,9 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
 
 interface HeroProps {
   imageUrl: string;
-  imageAlt?: string;
   headerText: string;
   paragraph?: string;
   buttonHref?: string;
@@ -12,7 +10,6 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({
   imageUrl,
-  imageAlt = 'background image',
   headerText,
   paragraph,
   buttonHref = '',
@@ -26,6 +23,7 @@ const Hero: React.FC<HeroProps> = ({
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        Alt,
       }}
     >
       <div className='max-w-[1200px] p-4 w-full text-white flex flex-col'>
