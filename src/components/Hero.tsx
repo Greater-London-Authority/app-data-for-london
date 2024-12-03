@@ -23,7 +23,6 @@ const Hero: React.FC<HeroProps> = ({
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        Alt,
       }}
     >
       <div className='max-w-[1200px] p-4 w-full text-white flex flex-col'>
