@@ -17,6 +17,13 @@
   --callout-connector-width: 1px;
 }
 
+:focus {
+  box-shadow: 0 0 0 0.125rem var(--white), 0 0 0 0.3125rem var(--darkpink),
+    0 0 0 0.4375rem var(--white) !important;
+  border-radius: 0.125rem;
+  outline: none;
+}
+
 body {
   min-height: 100vh;
   display: grid;
