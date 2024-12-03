@@ -1,8 +1,14 @@
+import { Metadata } from 'next';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
 import Hero from '@/components/Hero';
 import TimelineContainer from '@/components/timeline/TimelineContainer';
 import { timelineData } from '@/content/timelineData';
+
+export const metadata: Metadata = {
+  title: 'Data for London',
+  description: 'See information about the Data for London',
+};
 
 export default async function Home() {
   const content = await getMarkdownContent('index.md');

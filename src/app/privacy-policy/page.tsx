@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
+
+export const metadata: Metadata = {
+  title: 'Privacy policy - Data for London',
+  description: 'View privacy policy for the Data for London site',
+};
 
 export default async function PrivacyPolicy() {
   const content = await getMarkdownContent('privacy-policy.md');

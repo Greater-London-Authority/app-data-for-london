@@ -6,8 +6,7 @@ import Footer from '@/components/Footer';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Data for London',
-  description: 'Data for London site',
+  robots: 'noindex,nofollow',
 };
 
 // Below insert links to show in the navigation bar
