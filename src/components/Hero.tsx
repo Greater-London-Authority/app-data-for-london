@@ -24,7 +24,8 @@ const Hero: React.FC<HeroProps> = ({
       style={{
         backgroundImage: `url(${imageUrl})`,
         backgroundSize: 'cover',
-        backgroundPosition: '0px -250px',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className='max-w-[1200px] p-4 w-full text-white flex flex-col'>
