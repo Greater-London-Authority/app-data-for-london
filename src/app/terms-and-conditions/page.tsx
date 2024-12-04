@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
+
+export const metadata: Metadata = {
+  title: 'Terms and conditions - Data for London',
+  description: 'View terms and conditions for the Data for London site',
+};
 
 export default async function TermsAndConditions() {
   const content = await getMarkdownContent('terms-and-conditions.md');

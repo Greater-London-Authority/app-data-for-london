@@ -1,6 +1,13 @@
+import { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getMarkdownContent } from '@/lib/MarkdownToHtml';
+
+export const metadata: Metadata = {
+  title: 'Frequently asked questions - Data for London',
+  description:
+    'View the frequently asked questions for the Data for London site',
+};
 
 export default async function FAQ() {
   const content = await getMarkdownContent('faq.md');
