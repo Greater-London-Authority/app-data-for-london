@@ -18,7 +18,7 @@ const Nav: React.FC<NavProps> = ({ links }) => {
         <div className='flex flex-wrap items-center'>
           <Link href='/'>
             <Image
-              src='Data_For_London_Main_Logo.png'
+              src='dfl-logo.svg'
               alt='Data for London Logo'
               width={2759}
               height={1144}

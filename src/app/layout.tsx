@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
+import BypassBlock from '@/components/BypassBlock';
 import Nav from '@/components/Nav';
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Data for London',
-  description: 'Data for London site',
+  robots: 'noindex,nofollow',
 };
 
 // Below insert links to show in the navigation bar
@@ -41,10 +41,11 @@ export default function RootLayout({
           }}
         />
         <header>
+          <BypassBlock />
           <Banner></Banner>
           <Nav links={navigationLinks} />
         </header>
-        <main>{children}</main>
+        <main id='main'>{children}</main>
         <Footer></Footer>
       </body>
     </html>
