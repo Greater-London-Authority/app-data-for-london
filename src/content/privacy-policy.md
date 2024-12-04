@@ -115,7 +115,3 @@ Mailchimp has certified its compliance to both the EU-US Privacy Shield Framewor
 ### Keeping your data accurate
 
 You can unsubscribe from the site at any time by updating your preferences. It is important that you provide accurate information to Data for London. If you have another query relating to the accuracy of your information, have a look at our [Your Privacy Rights page](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights).
-
-**Last updated**
-
-28 August 2024
