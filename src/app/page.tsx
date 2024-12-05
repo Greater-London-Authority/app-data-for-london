@@ -17,7 +17,6 @@ export default async function Home() {
     <div>
       <Hero
         imageUrl='hero_image.jpg'
-        imageAlt='asd'
         headerText='Data for London'
         paragraph='Find out about the Data for London programme, established by the Mayor of London and Greater London Authority.'
         buttonHref='https://dfl-library.london.gov.uk'
