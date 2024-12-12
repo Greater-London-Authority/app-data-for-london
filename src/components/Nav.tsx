@@ -13,8 +13,8 @@ interface NavProps {
 
 const Nav: React.FC<NavProps> = ({ links }) => {
   return (
-    <div className='w-full flex justify-center bg-library-header px-24 py-2 h-fit min-h-20 border-solid border-b-[1px] border-b-library-border'>
-      <nav className='flex flex-wrap justify-between items-center px-4 py-2 max-w-[1200px] w-full'>
+    <div className='w-full flex justify-center bg-library-header h-fit min-h-20 border-solid border-b-[1px] border-b-library-border'>
+      <nav className='md:flex md:flex-row flex-wrap justify-between items-center px-4 py-2 max-w-[1200px] w-full'>
         <div className='flex flex-wrap items-center'>
           <Link href='/'>
             <Image
