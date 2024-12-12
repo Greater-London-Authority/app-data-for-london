@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Banner: React.FC = () => {
   return (
     <div className='w-full bg-ldn-grey py-6'>
-      <div className='flex flex-wrap justify-center items-center gap-12 '>
+      <div className='flex flex-col md:flex-row flex-wrap justify-center items-center gap-12 '>
         <a href='https://www.london.gov.uk/'>
           <Image
             src='logo-mayoral.svg'
