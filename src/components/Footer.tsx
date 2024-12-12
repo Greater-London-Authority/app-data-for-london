@@ -4,11 +4,11 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer: React.FC = () => {
   return (
-    <footer className='site-footer text-white bg-footer-dark mt-11 border-t border-ldn-grey'>
+    <footer className='site-footer text-white bg-footer-dark mt-11 border-t border-ldn-grey px-4 pt-12'>
       <div className='container mx-auto max-w-[1200px]'>
         <div className='row'>
           <div className='col-md-8 my-4'>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8  w-full px-4 py-12 mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8 w-full mx-auto'>
               {/* Connect with Us */}
               <section className='col-span-1'>
                 <h2 className='text-2xl font-semibold mb-4'>Connect with us</h2>
