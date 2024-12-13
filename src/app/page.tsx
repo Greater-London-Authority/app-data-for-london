@@ -22,10 +22,10 @@ export default async function Home() {
         buttonHref='https://dfl-library.london.gov.uk'
         buttonText='Visit the Data for London Library'
       ></Hero>
-      <div className='block text-left max-w-[1200px] px-4 my-4 mx-auto'>
+      <div className='block text-left max-w-[1200px] px-3 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
-      <div className='max-w-[1200px] px-4 my-4 mx-auto'>
+      <div className='max-w-[1200px] px-4 my-3 mx-auto'>
         <TimelineContainer items={timelineData} />
       </div>
     </div>
