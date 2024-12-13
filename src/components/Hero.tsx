@@ -25,7 +25,7 @@ const Hero: React.FC<HeroProps> = ({
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <div className='max-w-[1200px] p-4 w-full text-white flex flex-col'>
+      <div className='max-w-[1200px] p-3 w-full text-white flex flex-col'>
         <h1 className='text-6xl md:text-8xl'>{headerText}</h1>
         <div className='w-full flex justify-between items-start flex-wrap'>
           {paragraph && <p className='text-lg mb-6 md:w-1/2'>{paragraph}</p>}
