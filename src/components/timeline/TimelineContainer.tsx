@@ -46,7 +46,7 @@ const TimelineContainer: React.FC<TimelineContainerProps> = ({
   const finalOrientation = orientation || responsiveOrientation;
 
   return (
-    <div className='max-w-[1200px] m-auto px-14 py-4'>
+    <div className='max-w-[1200px] m-auto md:px-14 py-4'>
       <TimelineLayout items={items} orientation={finalOrientation} />
     </div>
   );
