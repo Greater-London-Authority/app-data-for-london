@@ -1,36 +1,36 @@
-# Data for London Privacy Policy
+# Data for London privacy policy
 
 **This page was updated on 28 August 2024.**
 
-The Greater London Authority is committed to protecting your privacy and personal data when you use the datastore or contact us. Our privacy policy outlines our obligations and your rights under data protection legislation.
+The Greater London Authority is committed to protecting your privacy and personal data when you use the Data for London Library or contact us. Our privacy policy outlines our obligations and your rights under data protection legislation.
 
 The Data for London website and Data for London Library seek to make it easier to find, share, and use data across London.
 
-Please take the time to review this page carefully as it sets out how your personal data will be processed when you use Data for London in accordance with Data Protection law. By joining and using the Data for London website, you are accepting that your personal data will be processed as set out in this privacy notice.
+Please take the time to review this page carefully as it sets out how your personal data will be processed when you use Data for London in accordance with data protection legislation. By joining and using the Data for London website, you are accepting that your personal data will be processed as set out in this privacy notice.
 
-Data for London wants to offer you the best possible online experience. Additional functions, features, products, or services are added to Data for London from time to time and this, along with our commitment to protecting the privacy of your personal information, may result in periodic changes to this privacy policy.
+Data for London wants to offer you the best online experience, so additional features, products or services may be added to Data for London.
 
-Any changes to these privacy pages will apply to you and your data immediately, so please check back here regularly. Your continued use of the site will mean that you accept any revisions. If these changes directly affect how your personal data is processed, we will take reasonable steps to let you know.
+In addition to these, we may also make changes to this privacy policy, and so we invite you to please check back here regularly. Your continued use of the site will mean that you accept those revisions. If these changes directly affect how your personal data is processed, we will take reasonable steps to let you know.
 
-Read more about [Your Privacy Rights](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights) under the current data protection legislation, or contact our [Data Protection Officer](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights) if you have any questions about this privacy policy.
+Read more about [your privacy rights](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights) under the current data protection legislation, or contact our [Data Protection Officer](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights) if you have any questions about this privacy policy.
 
-## Contact Details
+## Contact details
 
 **Email:** [datastore@london.gov.uk](mailto:datastore@london.gov.uk)
 
-## What Information Data for London Collects, Uses, and Why
+## What information Data for London collects, uses, and why
 
-### Your Login Account
+### Your login account
 
 We collect or use the following information for the operation of your login account:
 
-- Your name(s) and your email address.
+- Your name/s and your email address.
 
-### Marketing Preferences
+### Marketing preferences
 
 This is so we can create and administer your Data for London account. This information is stored privately in your Data for London profile and won’t be displayed on the site itself.
 
-### Providing Data Services
+### Providing data services
 
 We collect or use the following information to provide data services:
 
@@ -38,69 +38,69 @@ We collect or use the following information to provide data services:
 - Website user information (including user journeys and cookie tracking).
 - Information relating to feedback, compliments, or complaints.
 
-### Contact Us Queries, Report an Issue, Complaints
+### Contact us queries, report an issue, complaints
 
 We collect or use the following personal information for dealing with contact us queries, complaints, or claims:
 
 - Names and email address details.
 - Correspondence.
 
-### Additional Information
+### Additional information
 
 We may ask for further information about you if you choose to take part in certain surveys or other research through Data for London. These questions, research, and surveys are optional.
 
 While authorised administrators at Data for London will, in certain limited cases (depending on the nature of the survey and your expressed preferences), retain the ability to link feedback to specific individuals, no contributions, feedback, and results from research, surveys, discussions, and focus groups will be published or shared with third parties by reference to your name or any of your identifying details unless you explicitly consent to this.
 
-## Our Lawful Bases for the Collection and Use of Your Data
+## Our lawful bases for the collection and use of your data
 
-Under UK data protection law, the GLA must have a ‘lawful basis’ for collecting and using your personal information. There is a list of possible lawful bases in the UK GDPR.
+Under UK data protection legislation, the GLA must have a ‘lawful basis’ for collecting and using your personal information. The legislation also provides a list of possible 'lawful bases' that may apply.
 
 In the case of Data for London, our lawful bases for collecting or using personal information to provide data services may vary but will include:
 
-- **Consent** - we have permission from you, for example, you have asked to sign up to an ezine.
-- **Public task** – we have to collect or use your information to carry out a task in the public interest, which the law intends to be performed by an organisation such as ours. The Greater London Authority Act 1999 provides a legal basis for Data for London and it is necessary for us to process certain personal data to perform this public interest task.
+- **Consent** - we have permission from you, for example, you have asked to sign up to the Data for London site.
+- **Public task** – we have to collect or use your information to carry out a task in the public interest or for our official functions, and the task or function has a clear basis in law.
 
 Our lawful bases for collecting or using personal information for the operation of your login accounts are:
 
-- **Consent** - we have permission from you, for example, you have asked to sign up to an ezine.
-- **Public task** – we have to collect or use your information to carry out a task in the public interest, which the law intends to be performed by an organisation such as ours. The Greater London Authority Act provides a legal basis for Data for London and it is necessary for us to process certain personal data to perform this public interest task.
+- **Consent** - we have permission from you, for example, you have asked to sign up to the Data for London site.
+- **Public task** – we have to collect or use your information to carry out a task in the public interest.
 
-Our lawful bases for collecting or using personal information for Contact Us queries, report an issue, complaints are:
+Our lawful bases for collecting or using personal information for contact us queries, report an issue, complaints are:
 
 - **Consent** - we have permission from you, for example, you have asked to contact us or wish to report an issue or make a complaint.
-- **Public task** – we have to collect or use your information to carry out a task in the public interest, which the law intends to be performed by an organisation such as ours. The Greater London Authority Act provides a legal basis for Data for London and it is necessary for us to process certain personal data to perform this public interest task.
+- **Public task** – we have to collect or use your information to carry out a task in the public interest.
 
-## Where We Get Personal Information From
+## Where we get personal information from
 
 - **Directly from you**
 
-## Cookies and IP Addresses
-
-When you visit Data for London, our web servers automatically log your IP address (the unique address which identifies your computer on the internet) so we can identify and prevent attacks or malicious activity on our website.
+## Cookies and IP addresses
 
 Cookies are small pieces of data that are downloaded to your computer or mobile device when you visit a website or application. Cookies are generally used to monitor how a website is used and improve your online experience. They do not give us access to the rest of your computer and are not used to identify you personally.
 
-Data for London uses cookies which are required to operate our website. They include, for example, cookies that enable you to log into the website and ensure that you do not need to re-enter your details every time you visit a new page, or to help us remember your preferred settings, such as font size and screen width.
+When you visit Data for London, our web servers automatically log your IP address (the unique address which identifies your computer on the internet) so we can identify and prevent attacks or malicious activity on our website.
+
+Data for London uses cookies which are required to operate our website, including cookies that enable you to log into the website and ensure that you do not need to re-enter your details every time you visit a new page, or to help us remember your preferred settings, such as font size and screen width.
 
 We also use statistical cookies, which allow us to use analytics tools in order to better understand the experience of using the website, as well as carry out A/B test improvements to the website.
 
 Read more about [how we use cookies](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/gla-privacy-policy#stub-156118).
 
-## Deleting Your Data
+## Deleting your data
 
-Unsubscribing from our emails does not mean automatically deleting your Data for London account and correspondence.
+To update or delete your Data for London account, please log on and visit the login section. Alternatively, you can contact us on [datastore@london.gov.uk](mailto:datastore@london.gov.uk) with your request.
 
-To update or delete your Data for London account, please log on and visit the login section. Alternatively, you can contact us at [datastore@london.gov.uk](mailto:datastore@london.gov.uk) with your request.
+Unsubscribing from our emails will not automatically delete your Data for London account or records of previous correspondence.
 
-We may delete your account and your personal data when you’ve unsubscribed or emails sent to your account have bounced, and you have been inactive for an extended amount of time. We will then keep any correspondence you sent to Data for London.
+We may delete your account and your personal data when you’ve unsubscribed or emails sent to your account have bounced, and you have been inactive for an extended amount of time. We will keep any correspondence you have sent to Data for London.
 
-## Sharing Your Information with Others
+## Sharing your information with others
 
-The GLA will not sell your personal information to anyone for any reason. And we do not share your personal information with any third parties unless they are providing services to us under contract or other formal agreement or disclosure is permitted by, or required by, law.
+The GLA will not sell your personal information to anyone for any reason. The GLA will also not share your personal information with any third parties unless they are providing services to the Data for London platform under contract or other formal agreement or disclosure is permitted by, or required by, law.
 
-From time to time, our surveys and other pieces of research (which may contain or be built upon aggregated or otherwise non-identifiable information collected from individuals) will share aggregate anonymous information relating to the overall results of our surveys.
+From time to time we will conduct surveys and other pieces of research (which may contain or be built upon aggregated or otherwise non-identifiable information collected from individuals). We will share aggregate anonymous information relating to the overall results of our surveys.
 
-### Sharing Information Outside the UK
+### Sharing information outside the UK
 
 **Where is your information held?**
 
@@ -108,10 +108,10 @@ Data for London and all information collected through it is hosted on servers lo
 
 We use a third-party provider of software, Mailchimp (part of Intuit), to send out emails. Your Data for London profile and activity data are stored within Mailchimp so that we can segment and personalise our emails to you. None of your data is shared with Mailchimp, nor can they access it.
 
-Your views (what you told us in surveys) are not stored in Mailchimp.
+Your views (correspondence from surveys) are not stored in Mailchimp.
 
-Intuit (excluding Credit Karma) and Mailchimp comply with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) regarding the collection, use, and retention of personal information transferred from the European Union (EU), the United Kingdom (and Gibraltar), and Switzerland to the United States. Read their [global privacy statement](https://www.intuit.com/privacy/statement/).
+Mailchimp has certified its compliance to both the EU-US Privacy Shield Framework and the Swiss-US Privacy Shield Framework since 2016. Read their [global privacy statement](https://www.intuit.com/privacy/statement/).
 
-### Keeping Your Data Accurate
+### Keeping your data accurate
 
-You can use the unsubscribe link from the ezine at any time by updating your preferences. It is important that you provide accurate information to Data for London. If you have another query relating to the accuracy of your information, have a look at our [Your Privacy Rights page](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights).
+You can unsubscribe from the site at any time by updating your preferences. It is important that you provide accurate information to Data for London. If you have another query relating to the accuracy of your information, have a look at our [Your Privacy Rights page](https://www.london.gov.uk/who-we-are/governance-and-spending/privacy-policies/your-privacy-rights).

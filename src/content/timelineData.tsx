@@ -50,7 +50,7 @@ export const timelineData = [
   {
     id: 8,
     title: 'Eigth event',
-    date: '2024',
+    date: '2025',
     description:
       'Data for London and Data for London Library beta service launches.',
   },

@@ -1,5 +1,7 @@
 # Terms and Conditions
 
+**This page was updated on 28 August 2024.**
+
 ## Using our website
 
 The Greater London Authority’s Data for London Library website is maintained for your use. Access and use of this site constitutes acceptance by you of these Terms and Conditions, which will take effect from the date of first use.
