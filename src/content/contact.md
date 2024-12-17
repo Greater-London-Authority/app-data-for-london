@@ -14,7 +14,7 @@ Do you have a question for City Hall, the Mayor, or the London Assembly? Then co
 
 To keep up to date on what’s new on the Data for London Library, subscribe to our monthly London Datastore ezine.
 
-**[Sign up to the London Datastore Ezine | London City Hall](https://www.london.gov.uk/programmes-strategies/business-and-economy/mayors-priorities-londons-economy-and-business/smart-london/sign-up-london-datastore-ezine)**
+[Sign up to the London Datastore Ezine](https://www.london.gov.uk/programmes-strategies/business-and-economy/mayors-priorities-londons-economy-and-business/smart-london/sign-up-london-datastore-ezine)
 
 ## Follow us on social media
 
