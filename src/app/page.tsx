@@ -17,16 +17,15 @@ export default async function Home() {
     <div>
       <Hero
         imageUrl='hero_image.jpg'
-        imageAlt='asd'
         headerText='Data for London'
         paragraph='Find out about the Data for London programme, established by the Mayor of London and Greater London Authority.'
         buttonHref='https://dfl-library.london.gov.uk'
         buttonText='Visit the Data for London Library'
       ></Hero>
-      <div className='block text-left max-w-[1200px] px-4 my-4 mx-auto'>
+      <div className='block text-left max-w-[1200px] px-3 my-4 mx-auto'>
         <MarkdownRenderer content={content} />
       </div>
-      <div className='max-w-[1200px] px-4 my-4 mx-auto'>
+      <div className='max-w-[1200px] px-4 my-3 mx-auto'>
         <TimelineContainer items={timelineData} />
       </div>
     </div>

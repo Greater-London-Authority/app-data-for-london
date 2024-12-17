@@ -1,9 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
 
 interface HeroProps {
   imageUrl: string;
-  imageAlt?: string;
   headerText: string;
   paragraph?: string;
   buttonHref?: string;
@@ -12,7 +10,6 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({
   imageUrl,
-  imageAlt = 'background image',
   headerText,
   paragraph,
   buttonHref = '',
@@ -24,13 +21,14 @@ const Hero: React.FC<HeroProps> = ({
       style={{
         backgroundImage: `url(${imageUrl})`,
         backgroundSize: 'cover',
-        backgroundPosition: '0px -250px',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
     >
-      <div className='max-w-[1200px] p-4 w-full text-white flex flex-col'>
-        <h1 className='text-[120px]'>{headerText}</h1>
+      <div className='max-w-[1200px] p-3 w-full text-white flex flex-col'>
+        <h1 className='text-6xl md:text-8xl'>{headerText}</h1>
         <div className='w-full flex justify-between items-start flex-wrap'>
-          {paragraph && <p className='text-xl mb-6 md:w-1/2'>{paragraph}</p>}
+          {paragraph && <p className='text-lg mb-6 md:w-1/2'>{paragraph}</p>}
           {buttonHref && (
             <a href={buttonHref} className='btn'>
               {buttonText}
