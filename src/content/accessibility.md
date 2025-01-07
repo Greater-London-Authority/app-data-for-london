@@ -22,7 +22,7 @@ This site has been built to be as accessible as possible and will be regularly t
 If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille:
 
 - call 020 7983 4000 (Monday to Friday, 9am - 5pm)
-- get in touch via our [online form](https://www.london.gov.uk/about-us/contacting-city-hall/contacting-mayor)
+- get in touch via our [online form](https://www.london.gov.uk/contact-us-form)
 - or email [mayor@london.gov.uk](mailto:mayor@london.gov.uk)
 
 We’ll consider your request and get back to you within five working days, to advise further.
@@ -39,7 +39,7 @@ The Equality and Human Rights Commission (EHRC) is responsible for enforcing the
 
 Our offices have audio induction loops, or if you contact us before your visit we can arrange a British Sign Language (BSL) interpreter.
 
-Find out how to [contact City Hall](https://www.london.gov.uk/about-us/contacting-city-hall).
+Find out how to [contact City Hall](https://www.london.gov.uk/contact-or-visit-city-hall).
 
 ## Technical information about this website’s accessibility
 

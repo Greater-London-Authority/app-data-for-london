@@ -32,7 +32,7 @@ We hope to be able to provide more information about the licensing terms for GLA
 
 ## Who do I contact if I have a comment or complaint about this site?
 
-The GLA welcomes comments about this site. In the first instance, email us at [datastore@london.gov.uk](mailto:datastore@london.gov.uk). This e-mail will be received by the Datastore Project Team. We will try to respond as soon as possible. If you have a general enquiry, comment or complaint about the GLA, please follow the link below, which will give you the appropriate contact details: [http://www.london.gov.uk/gla/contact.jsp](http://www.london.gov.uk/gla/contact.jsp).
+The GLA welcomes comments about this site. In the first instance, email us at [datastore@london.gov.uk](mailto:datastore@london.gov.uk). This e-mail will be received by the Datastore Project Team. We will try to respond as soon as possible. If you have a general enquiry, comment or complaint about the GLA, please follow the link below, which will give you the appropriate contact details: [https://www.london.gov.uk/contact-us-form](https://www.london.gov.uk/contact-us-form).
 
 ## Who is in charge of Data for London and the Data for London Library?
 
