@@ -26,9 +26,11 @@ The license conditions under which data can be used will vary for each data pack
 
 ## What can I do with Crown Copyright material?
 
-The Office for National Statistics website contains a summary of the terms of use associated with Crown Copyright material from ONS. It explains the terms for personal and research use, plus the need for a click-use licence from OPSI for commercial or other uses. More information is available at [https://www.ons.gov.uk/copyright/index.html](http://www.ons.gov.uk/copyright/index.html).
+Crown copyright is defined under section 163 of the Copyright, Designs and Patents Act 1988 as works made by officers or servants of the Crown in the course of their duties. Copyright in a work which has been assigned to the Crown lasts 70 years after the death of the person who created it. The default licence for most Crown copyright and Crown database right information is the Open Government Licence.
 
-We hope to be able to provide more information about the licensing terms for GLA-created data in due course. We are seeking advice from the [Open Knowledge Foundation](https://okfn.org/) about the best way of doing this.
+More detail on crown copyright can be found on The National Archives website here: [https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/.](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/.)
+
+Detail on the Open Government Licence are found here: [https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ## Who do I contact if I have a comment or complaint about this site?
 
